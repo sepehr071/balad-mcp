@@ -1,0 +1,35 @@
+{
+ "formatted_address": "تهران، کوی نصر(گیشا)، میدان آرش کمانگیر، خ مسیر اختصاصی برج میلاد",
+ "components": [
+  {
+   "full_name": "شهر تهران",
+   "short_name": "تهران",
+   "type": "city",
+   "id": "5715035"
+  },
+  {
+   "full_name": "شهرستان تهران",
+   "short_name": "تهران",
+   "type": "county",
+   "id": "8090"
+  },
+  {
+   "full_name": "کوی نصر(گیشا)",
+   "short_name": "کوی نصر(گیشا)",
+   "type": "neighborhood",
+   "id": "5777388"
+  },
+  {
+   "full_name": "میدان آرش کمانگیر",
+   "short_name": "میدان آرش کمانگیر",
+   "type": "street",
+   "id": "-1"
+  },
+  {
+   "full_name": "خیابان مسیر اختصاصی برج میلاد",
+   "short_name": "خ مسیر اختصاصی برج میلاد",
+   "type": "street",
+   "id": "-1"
+  }
+ ]
+}

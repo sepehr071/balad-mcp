@@ -1,0 +1,240 @@
+{
+ "items": [
+  {
+   "token": "61f9krRv6FLSZj",
+   "name": "داروخانه دکتر افشین مهاجر",
+   "address": "تهران، انقلاب، ابتدای خیابان ابوریحان، ساختمان پارسه، پلاک ۱۰۵",
+   "thumbnail": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.400525,
+     35.700511
+    ]
+   },
+   "telephone": "02166401651",
+   "url_title": "داروخانه-دکتر-افشین-مهاجر-tehran-nei-enqlab_pharmacy",
+   "category": "داروخانه",
+   "website": "",
+   "traits": null,
+   "image": null,
+   "images": null,
+   "rating": {
+    "score": 4.5,
+    "count": 2
+   },
+   "price_range": null,
+   "badges": []
+  },
+  {
+   "token": "4ZGBFlChu3MyNL",
+   "name": "داروخانه دكترمحمدحسینی",
+   "address": "تهران، خ. انقلاب، خ. ابوریحان، خ. شهید نظری، طبقه اول، پلاک ۳۵",
+   "thumbnail": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.399441,
+     35.699399
+    ]
+   },
+   "telephone": "02166467697",
+   "url_title": "داروخانه-دكتر-محمدحسینی-tehran-nei-enqlab_pharmacy",
+   "category": "داروخانه",
+   "website": null,
+   "traits": null,
+   "image": null,
+   "images": null,
+   "rating": null,
+   "price_range": null,
+   "badges": []
+  },
+  {
+   "token": "55J6n1D4sfWxXp",
+   "name": "داروخانه دکتر همایونی",
+   "address": "تهران،انقلاب،خ کارگر جنوبی،خ شهید نظری،خ افشار",
+   "thumbnail": "https://cdn.balad.ir/crowd-images/all/original/55J6n1D4sfWxXp-5503cf8621f24d12bd2704905a58ea18.jpg?x-img=v1/crop,x_272,y_0,w_2481,h_1396/resize,h_562,w_1000/autorotate",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.40196722441769,
+     35.69933767461838
+    ]
+   },
+   "telephone": "02166963425",
+   "url_title": "داروخانه-دکتر-همایونی_pharmacy",
+   "category": "داروخانه",
+   "website": null,
+   "traits": null,
+   "image": {
+    "preview": "https://cdn.balad.ir/crowd-images/all/original/55J6n1D4sfWxXp-5503cf8621f24d12bd2704905a58ea18.jpg?x-img=v1/crop,x_272,y_0,w_2481,h_1396/resize,h_562,w_1000/autorotate",
+    "full": "https://cdn.balad.ir/crowd-images/all/original/55J6n1D4sfWxXp-5503cf8621f24d12bd2704905a58ea18.jpg",
+    "full_width": 3025,
+    "full_height": 1396,
+    "full_orientation": 0,
+    "id": "poi_photo-3048293",
+    "type": "poi_photo",
+    "owner": false,
+    "created_date": "یک سال پیش",
+    "feedback": {
+     "like": {
+      "count": 0,
+      "user_feedback": false
+     },
+     "dislike": {
+      "count": 0,
+      "user_feedback": false
+     }
+    },
+    "profile": null,
+    "source": "poi_add"
+   },
+   "images": [
+    {
+     "preview": "https://cdn.balad.ir/crowd-images/all/original/55J6n1D4sfWxXp-5503cf8621f24d12bd2704905a58ea18.jpg?x-img=v1/crop,x_272,y_0,w_2481,h_1396/resize,h_562,w_1000/autorotate",
+     "full": "https://cdn.balad.ir/crowd-images/all/original/55J6n1D4sfWxXp-5503cf8621f24d12bd2704905a58ea18.jpg",
+     "full_width": 3025,
+     "full_height": 1396,
+     "full_orientation": 0,
+     "id": "poi_photo-3048293",
+     "type": "poi_photo",
+     "owner": false,
+     "created_date": "یک سال پیش",
+     "feedback": {
+      "like": {
+       "count": 0,
+       "user_feedback": false
+      },
+      "dislike": {
+       "count": 0,
+       "user_feedback": false
+      }
+     },
+     "profile": null,
+     "source": "poi_add"
+    }
+   ],
+   "rating": null,
+   "price_range": null,
+   "badges": []
+  },
+  {
+   "token": "3axyi5uVo5bcoF",
+   "name": "داروخانه دکتر فاطمه محمدیان",
+   "address": "تهران،دانشگاه تهران،خ ولیعصر،خ بزرگمهر،خ وصال شیرازی روبروی بیمارستان البرز",
+   "thumbnail": "https://cdn.balad.ir/crowd-images/all/original/3axyi5uVo5bcoF-f567c943772e4f3ea3a0bdbd9b84b36c.jpg?x-img=v1/crop,x_0,y_578,w_1500,h_843/resize,h_562,w_1000/autorotate",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.3996359,
+     35.7023186
+    ]
+   },
+   "telephone": "02166969473",
+   "url_title": "داروخانه-دکتر-فاطمه-محمدیان-tehran-nei-daneshgah-tehran_pharmacy",
+   "category": "داروخانه",
+   "website": null,
+   "traits": null,
+   "image": {
+    "preview": "https://cdn.balad.ir/crowd-images/all/original/3axyi5uVo5bcoF-f567c943772e4f3ea3a0bdbd9b84b36c.jpg?x-img=v1/crop,x_0,y_578,w_1500,h_843/resize,h_562,w_1000/autorotate",
+    "full": "https://cdn.balad.ir/crowd-images/all/original/3axyi5uVo5bcoF-f567c943772e4f3ea3a0bdbd9b84b36c.jpg",
+    "full_width": 1500,
+    "full_height": 1999,
+    "full_orientation": 0,
+    "id": "poi_photo-1093171",
+    "type": "poi_photo",
+    "owner": false,
+    "created_date": "۴ سال پیش",
+    "feedback": {
+     "like": {
+      "count": 0,
+      "user_feedback": false
+     },
+     "dislike": {
+      "count": 0,
+      "user_feedback": false
+     }
+    },
+    "profile": null,
+    "source": "poi_add"
+   },
+   "images": [
+    {
+     "preview": "https://cdn.balad.ir/crowd-images/all/original/3axyi5uVo5bcoF-f567c943772e4f3ea3a0bdbd9b84b36c.jpg?x-img=v1/crop,x_0,y_578,w_1500,h_843/resize,h_562,w_1000/autorotate",
+     "full": "https://cdn.balad.ir/crowd-images/all/original/3axyi5uVo5bcoF-f567c943772e4f3ea3a0bdbd9b84b36c.jpg",
+     "full_width": 1500,
+     "full_height": 1999,
+     "full_orientation": 0,
+     "id": "poi_photo-1093171",
+     "type": "poi_photo",
+     "owner": false,
+     "created_date": "۴ سال پیش",
+     "feedback": {
+      "like": {
+       "count": 0,
+       "user_feedback": false
+      },
+      "dislike": {
+       "count": 0,
+       "user_feedback": false
+      }
+     },
+     "profile": null,
+     "source": "poi_add"
+    },
+    {
+     "preview": "https://cdn.balad.ir/crowd-images/all/original/3axyi5uVo5bcoF-5fa7520f511448bea01bc6a51b00447a.jpg?x-img=v1/crop,x_0,y_403,w_1468,h_826/resize,h_562,w_1000/autorotate",
+     "full": "https://cdn.balad.ir/crowd-images/all/original/3axyi5uVo5bcoF-5fa7520f511448bea01bc6a51b00447a.jpg",
+     "full_width": 1468,
+     "full_height": 1632,
+     "full_orientation": 0,
+     "id": "poi_photo-1093170",
+     "type": "poi_photo",
+     "owner": false,
+     "created_date": "۴ سال پیش",
+     "feedback": {
+      "like": {
+       "count": 0,
+       "user_feedback": false
+      },
+      "dislike": {
+       "count": 0,
+       "user_feedback": false
+      }
+     },
+     "profile": null,
+     "source": "poi_add"
+    }
+   ],
+   "rating": {
+    "score": 5,
+    "count": 2
+   },
+   "price_range": null,
+   "badges": []
+  },
+  {
+   "token": "43jx4YGJUM9KknX",
+   "name": "داروخانه تستیان",
+   "address": "تهران، منطقه ۱۱ شهر تهران، فلسطین - انقلاب، اول، ​شسیبشسب",
+   "thumbnail": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.400223,
+     35.697456
+    ]
+   },
+   "telephone": "09196256832",
+   "url_title": "داروخانه-تستیان_pharmacy",
+   "category": "داروخانه",
+   "website": null,
+   "traits": null,
+   "image": null,
+   "images": null,
+   "rating": null,
+   "price_range": null,
+   "badges": []
+  }
+ ]
+}

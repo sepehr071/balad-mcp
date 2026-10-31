@@ -1,0 +1,356 @@
+{
+ "id": 540161,
+ "token": "4Dvh6E79N49I2j",
+ "name": "برج میلاد تهران",
+ "seo_details": {
+  "name": "برج میلاد تهران محله کوی نصر(گیشا)",
+  "page_title": "برج میلاد تهران محله کوی نصر(گیشا)؛ آدرس، تلفن، ساعت کاری | نقشه و مسیریاب بلد",
+  "url_title": "برج-میلاد-تهران-tehran-nei-kooy-nasr_tourist-attractions",
+  "description": "اطلاعات کامل برج میلاد تهران محله کوی نصر(گیشا) به همراه آدرس، ساعت کاری، شماره تلفن با امتیاز 4.6 را در نقشه و مسیریاب بلد بیابید.",
+  "image": "https://cdn.balad.ir/crowd-images/all/original/6a536d83663b46779fed4d2e17de369d-image_picker490b77d4-168a-4d6e-bc48-36245a08d8f8.jpg",
+  "content_group": null,
+  "no_index": false
+ },
+ "category": "جاذبه گردشگری",
+ "rating": {
+  "score": 4.6,
+  "count": 644
+ },
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   51.375452,
+   35.744645
+  ]
+ },
+ "fields": [
+  {
+   "type": "html",
+   "value": "<h2><span style=\"color:#e52f5b\">نگاهی به این مکان:</span></h2>\r\n<br />\r\n🗺️&nbsp;برج میلاد با ارتفاع ۴۳۵ متر ششمین برج بلند مخابراتی دنیاست و در سال ۱۳۸۷ شمسی افتتاح شد. این برج نماد مدرنیته تهران است و علاوه بر نقش مخابراتی، یکی از مهم&zwnj;ترین مراکز گردشگری شهر به شمار می&zwnj;رود. برج میلاد شامل بخش&zwnj;های متنوعی مثل رستوران گردان، سکوی دید باز، موزه&zwnj;ها، مراکز تجاری و سالن همایش&zwnj;های بین&zwnj;المللی است. طراحی آن ترکیبی از معماری مدرن و الهام&zwnj;گرفته از عناصر ایرانی است. از بالاترین نقطه برج، چشم&zwnj;اندازی بی&zwnj;نظیر از تهران دیده می&zwnj;شود که بازدید آن را برای گردشگران جذاب کرده است.<br />\r\n<br />\r\n🎫&nbsp;بازدید چهار طبقه (سکوی دید باز ،موزه مشاهیر،موزه شهرداری ،گنبد آسمان ) ۳۳۰ هزار تومان است.",
+   "icon": null,
+   "text": null,
+   "sub_text": null
+  },
+  {
+   "type": "dropdown",
+   "icon": "clock",
+   "title": "ساعت کاری",
+   "fields": [
+    {
+     "type": "list",
+     "titles": [
+      "شنبه",
+      "یکشنبه",
+      "دوشنبه",
+      "سه‌شنبه",
+      "چهارشنبه",
+      "پنج‌شنبه",
+      "جمعه"
+     ],
+     "items": [
+      "کل روز باز است",
+      "کل روز باز است",
+      "کل روز باز است",
+      "کل روز باز است",
+      "کل روز باز است",
+      "کل روز باز است",
+      "کل روز باز است"
+     ]
+    }
+   ],
+   "message": "باز است",
+   "open": true
+  },
+  {
+   "type": "text",
+   "value": "تهران،کوی نصر،بزرگراه شیخ فضل الله،خ مسیر اختصاصی برج میلاد",
+   "icon": "gps",
+   "text": null,
+   "sub_text": null
+  },
+  {
+   "type": "link",
+   "value": "tel://0218585",
+   "icon": "phone",
+   "text": "0218585",
+   "sub_text": null
+  },
+  {
+   "type": "link",
+   "value": "https://miladticket.com/",
+   "icon": "web",
+   "text": "https://miladticket.com/",
+   "sub_text": null
+  },
+  {
+   "type": "link",
+   "value": "https://instagram.com/Tehranmiladtower",
+   "icon": "instagram",
+   "text": "Tehranmiladtower",
+   "sub_text": null
+  },
+  {
+   "type": "modal",
+   "value": "edit",
+   "icon": "edit",
+   "text": "ویرایش اطلاعات",
+   "sub_text": "ویرایش نام، دسته‌بندی، آدرس، موقعیت‌ مکانی و ..."
+  },
+  {
+   "type": "modal",
+   "value": "delete",
+   "icon": "delete",
+   "text": "درخواست حذف مکان",
+   "sub_text": "تکراری است، بسته است، وجود ندارد و ..."
+  }
+ ],
+ "description": {
+  "text": "برج میلاد تهران در کوی نصر تهران و در پل عابر واقع شده است. \n از لحاظ موقعیت جغرافیایی این مکان در نزدیکی مراکزی مانند {link} و {link} و {link} و {link} و {link} قرار گرفته است. \nنزدیکترین ایستگاه مترو به این مکان، {link} و نزدیکترین ایستگاه اتوبوس به این مکان، {link} می‌باشد که دسترسی به این مکان را برای کاربران حمل‌ونقل عمومی آسان می‌سازد.\nهمچنین در برنامه {link} کاربران امتیاز ۴٫۷ از ۵ را به این مکان داده‌اند.",
+  "data": [
+   {
+    "text": "پارک ایران زمین",
+    "page": "poi",
+    "token": "2VuTCgFvzGijVD",
+    "url_title": "پارک-ایران-زمین-tehran-nei-shahrak-qarb_park"
+   },
+   {
+    "text": "مجتمع تجاری گلستان",
+    "page": "poi",
+    "token": "5xXDwJAq40Nmlk",
+    "url_title": "مجتمع-تجاری-گلستان-tehran-nei-shahrak-qarb_shopping-mall"
+   },
+   {
+    "text": "بیمارستان میلاد",
+    "page": "poi",
+    "token": "2xgCwRuhC1V9uV",
+    "url_title": "بیمارستان-میلاد-tehran-nei-kooy-nasr_hospital"
+   },
+   {
+    "text": "بوستان گفتگو",
+    "page": "poi",
+    "token": "PfDAN46CHz6kZN",
+    "url_title": "بوستان-گفتگو-tehran-nei-kooy-nasr_park"
+   },
+   {
+    "text": "مرکز سلامت جامعه دکتر ناصرنیا",
+    "page": "poi",
+    "token": "3unDVfAR4mXkmT",
+    "url_title": "مرکز-سلامت-جامعه-دکتر-ناصرنیا-tehran-nei-kooy-nasr_medical-clinic"
+   },
+   {
+    "text": "ایستگاه مترو برج میلاد تهران",
+    "page": "poi",
+    "token": "PqVuwqOLAz70aH",
+    "url_title": "ایستگاه-مترو-برج-میلاد-تهران-tehran-nei-kooy-nasr_subway-station"
+   },
+   {
+    "text": "ایستگاه اتوبوس خیابان سی و هفت",
+    "page": "poi",
+    "token": "PCCExUwGsaF02k",
+    "url_title": "ایستگاه-اتوبوس-خیابان-سی-و-هفت-tehran-nei-kooy-nasr_bus-station"
+   },
+   {
+    "text": "بلد",
+    "page": "download"
+   }
+  ]
+ },
+ "phone_link": "tel://0218585",
+ "reviews": {
+  "total": 649,
+  "total_comments": 301,
+  "average_rate": 4.6,
+  "rate_details": [
+   37,
+   16,
+   27,
+   37,
+   532
+  ],
+  "comments": [
+   {
+    "rate": 5.0,
+    "id": 2338037,
+    "created_at": "امروز",
+    "status": "Approved",
+    "images": [],
+    "feedback": {
+     "like": {
+      "count": 0,
+      "user_feedback": false
+     },
+     "dislike": {
+      "count": 0,
+      "user_feedback": false
+     }
+    },
+    "writer": false,
+    "user_name": "کاربر بلد",
+    "user_image": null,
+    "image_url": null,
+    "profile": {
+     "id": "07af9822fe984362",
+     "full_name": "کاربر بلد",
+     "image_url": null,
+     "click_action": {
+      "type": "open_page",
+      "data": "user_profile"
+     }
+    },
+    "comment": "عالی‌‎​‎‎​‌‎‌​‌​ می‌‎​‎‏‏ باشد.",
+    "reviewer_footprint": null
+   },
+   {
+    "rate": 5.0,
+    "id": 2333006,
+    "created_at": "دو روز پیش",
+    "status": "Approved",
+    "images": [],
+    "feedback": {
+     "like": {
+      "count": 0,
+      "user_feedback": false
+     },
+     "dislike": {
+      "count": 0,
+      "user_feedback": false
+     }
+    },
+    "writer": false,
+    "user_name": "مهرسام نوروزی ",
+    "user_image": null,
+    "image_url": null,
+    "profile": {
+     "id": "4de9c21c3c8ad36c",
+     "full_name": "مهرسام نوروزی ",
+     "image_url": null,
+     "click_action": {
+      "type": "open_page",
+      "data": "user_profile"
+     }
+    },
+    "comment": "من‌‎​‎‎​ برج میلاد‌‎‌​‌​ رفتم و‌‎​‎‏‏ جاهای مختلفی داشت",
+    "reviewer_footprint": {
+     "text": "۹ نظر برای جاذبه گردشگری",
+     "icon": null
+    }
+   },
+   {
+    "rate": 5.0,
+    "id": 2328885,
+    "created_at": "۵ روز پیش",
+    "status": "Approved",
+    "images": [],
+    "feedback": {
+     "like": {
+      "count": 1,
+      "user_feedback": false
+     },
+     "dislike": {
+      "count": 0,
+      "user_feedback": false
+     }
+    },
+    "writer": false,
+    "user_name": "کاربر بلد",
+    "user_image": null,
+    "image_url": null,
+    "profile": {
+     "id": "1c6c89866660751a",
+     "full_name": "کاربر بلد",
+     "image_url": null,
+     "click_action": {
+      "type": "open_page",
+      "data": "user_profile"
+     }
+    },
+    "comment": "عالیه‌‎​‎‎​ واقا‌‎‌​‌​ نتونستم‌‎​‎‏‏ عیبی بگیرم",
+    "reviewer_footprint": {
+     "text": "تا به حال ۱۰ نظر نوشته",
+     "icon": null
+    }
+   },
+   {
+    "rate": 5.0,
+    "id": 2314370,
+    "created_at": "۱۶ روز پیش",
+    "status": "Approved",
+    "images": [],
+    "feedback": {
+     "like": {
+      "count": 0,
+      "user_feedback": false
+     },
+     "dislike": {
+      "count": 0,
+      "user_feedback": false
+     }
+    },
+    "writer": false,
+    "user_name": "سهیل صادقی نژاد ",
+    "user_image": null,
+    "image_url": null,
+    "profile": {
+     "id": "81f8b0cd314241f1",
+     "full_name": "سهیل صادقی نژاد ",
+     "image_url": null,
+     "click_action": {
+      "type": "open_page",
+      "data": "user_profile"
+     }
+    },
+    "comment": "عالی‌‎​‎‎​ عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی‌‎‌​‌​ عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی‌‎​‎‏‏ عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی عالی",
+    "reviewer_footprint": {
+     "text": "تا به حال ۹ نظر نوشته",
+     "icon": null
+    }
+   }
+  ]
+ },
+ "top_extra_fields": [],
+ "middle_extra_fields": [],
+ "bottom_extra_fields": [],
+ "traits": [
+  {
+   "name": "جاذبه‌ گردشگری",
+   "icon": "https://cdn.balad.ir/neda-static-files/poi/static/icon/check_green.png"
+  }
+ ],
+ "images": [
+  {
+   "id": "poi_photo-3843879",
+   "preview": "https://cdn.balad.ir/crowd-images/all/original/6a536d83663b46779fed4d2e17de369d-image_picker490b77d4-168a-4d6e-bc48-36245a08d8f8.jpg?x-img=v1/crop,x_0,y_242,w_540,h_304/resize,h_304,w_540/autorotate",
+   "full": "https://cdn.balad.ir/crowd-images/all/original/6a536d83663b46779fed4d2e17de369d-image_picker490b77d4-168a-4d6e-bc48-36245a08d8f8.jpg",
+   "full_width": 540,
+   "full_height": 788,
+   "full_orientation": 1,
+   "profile": {
+    "id": "4de9c21c3c8ad36c",
+    "full_name": "مهرسام نوروزی ",
+    "image_url": null
+   },
+   "resized_urls": null,
+   "owner": false,
+   "type": "poi_photo",
+   "created_date": "دو روز پیش",
+   "feedback": {
+    "like": {
+     "count": 0,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "source": "photo_add"
+  }
+ ],
+ "currency": null,
+ "main_traits": null,
+ "menu": null,
+ "price_range": null,
+ "is_ad": false,
+ "badges": [],
+ "posts": null
+}

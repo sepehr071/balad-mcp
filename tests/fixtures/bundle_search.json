@@ -1,0 +1,114 @@
+{
+ "poi-tokens": [
+  "61f9krRv6FLSZj",
+  "4ZGBFlChu3MyNL",
+  "55J6n1D4sfWxXp",
+  "3axyi5uVo5bcoF",
+  "43jx4YGJUM9KknX"
+ ],
+ "maintext": "داروخانه",
+ "formatted_maintext": "داروخانه",
+ "subtext1": "نمایش نتایج داروخانه روی نقشه",
+ "formatted_subtext1": "نمایش نتایج داروخانه روی نقشه",
+ "bundle_id": 10655,
+ "bundle_slug": "pharmacy",
+ "geojson": {
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      51.400525,
+      35.700511
+     ]
+    },
+    "properties": {
+     "name": "داروخانه دکتر افشین مهاجر",
+     "is_selected": false,
+     "rate": 4.5,
+     "icon": "other-15"
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      51.399441,
+      35.699399
+     ]
+    },
+    "properties": {
+     "name": "داروخانه دكترمحمدحسینی",
+     "is_selected": false,
+     "rate": 0.0,
+     "icon": "other-15"
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      51.4019672,
+      35.6993377
+     ]
+    },
+    "properties": {
+     "name": "داروخانه دکتر همایونی",
+     "is_selected": false,
+     "rate": 0.0,
+     "icon": "other-15"
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      51.3996359,
+      35.7023186
+     ]
+    },
+    "properties": {
+     "name": "داروخانه دکتر فاطمه محمدیان",
+     "is_selected": false,
+     "rate": 5.0,
+     "icon": "other-15"
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      51.400223,
+      35.697456
+     ]
+    },
+    "properties": {
+     "name": "داروخانه تستیان",
+     "is_selected": false,
+     "rate": 0.0,
+     "icon": "other-15"
+    }
+   }
+  ]
+ },
+ "type": "bundle-poi",
+ "view_type": "bundle-poi",
+ "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/bundle.png",
+ "list_text_main": "",
+ "list_text_alert": "",
+ "list_text_alert_info": "",
+ "list_text_alert_clicked_query": "",
+ "bundle_paging_meta": {
+  "score": 5.8441167,
+  "distance": 2,
+  "tie_breaker": "6pisFJMaHh1Zti"
+ },
+ "related_bundles": null,
+ "parent_slug": null
+}

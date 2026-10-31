@@ -1,0 +1,505 @@
+{
+ "results": [
+  {
+   "title": "خوراکی",
+   "slug": "food",
+   "categories": [
+    {
+     "name": "رستوران",
+     "slug": "restaurant",
+     "icon": ""
+    },
+    {
+     "name": "تهیه غذا",
+     "slug": "catering",
+     "icon": ""
+    },
+    {
+     "name": "طباخی",
+     "slug": "tabakhi",
+     "icon": ""
+    },
+    {
+     "name": "دیزی‌سرا",
+     "slug": "dizi",
+     "icon": ""
+    },
+    {
+     "name": "جگرکی",
+     "slug": "jegaraki",
+     "icon": ""
+    },
+    {
+     "name": "آش و حلیم فروشی",
+     "slug": "ash-and-halim",
+     "icon": ""
+    },
+    {
+     "name": "فست‌فود",
+     "slug": "fast-food-restaurant",
+     "icon": ""
+    },
+    {
+     "name": "کافه",
+     "slug": "coffee-shop",
+     "icon": ""
+    },
+    {
+     "name": "بستنی و آبمیوه فروشی",
+     "slug": "ice-cream-and-juice-shop",
+     "icon": ""
+    },
+    {
+     "name": "شیرینی فروشی",
+     "slug": "confectionery",
+     "icon": ""
+    },
+    {
+     "name": "آجیل و خشکبار فروشی",
+     "slug": "nuts-store",
+     "icon": ""
+    },
+    {
+     "name": "میوه فروشی",
+     "slug": "fruits-and-vegetables-sales",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه فرآورده‌های گوشتی",
+     "slug": "meat-and-protein-shop",
+     "icon": ""
+    },
+    {
+     "name": "نانوایی",
+     "slug": "iranian-bakery",
+     "icon": ""
+    },
+    {
+     "name": "لبنیاتی",
+     "slug": "dairy-shop",
+     "icon": ""
+    }
+   ],
+   "preview_count": 6
+  },
+  {
+   "title": "سلامت",
+   "slug": "healthcare",
+   "categories": [
+    {
+     "name": "بیمارستان",
+     "slug": "hospital",
+     "icon": ""
+    },
+    {
+     "name": "کلینیک درمانی",
+     "slug": "medical-clinic",
+     "icon": ""
+    },
+    {
+     "name": "درمانگاه",
+     "slug": "infirmary",
+     "icon": ""
+    },
+    {
+     "name": " مطب پزشک",
+     "slug": "medical-office",
+     "icon": ""
+    },
+    {
+     "name": "مرکز مشاوره",
+     "slug": "counseling-centers",
+     "icon": ""
+    },
+    {
+     "name": "آزمایشگاه پزشکی",
+     "slug": "medical-laboratory",
+     "icon": ""
+    },
+    {
+     "name": "داروخانه",
+     "slug": "pharmacy",
+     "icon": ""
+    },
+    {
+     "name": "دامپزشکی",
+     "slug": "veterinarian",
+     "icon": ""
+    }
+   ],
+   "preview_count": 6
+  },
+  {
+   "title": "اقامت",
+   "slug": "accommodation",
+   "categories": [
+    {
+     "name": "هتل",
+     "slug": "hotel",
+     "icon": ""
+    },
+    {
+     "name": "متل",
+     "slug": "motel",
+     "icon": ""
+    },
+    {
+     "name": "مهمان‌سرا",
+     "slug": "guest-house",
+     "icon": ""
+    },
+    {
+     "name": "اقامتگاه بوم‌گردی",
+     "slug": "vernacular-accommodation",
+     "icon": ""
+    }
+   ],
+   "preview_count": 6
+  },
+  {
+   "title": "خرید",
+   "slug": "shopping",
+   "categories": [
+    {
+     "name": "سوپرمارکت",
+     "slug": "supermarket",
+     "icon": ""
+    },
+    {
+     "name": "مرکز خرید",
+     "slug": "shopping-mall",
+     "icon": ""
+    },
+    {
+     "name": "عطاری",
+     "slug": "medicinal-herbs-store",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه لباس",
+     "slug": "clothing-store",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه کیف و کفش",
+     "slug": "bag-and-shoes-shop",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه لوازم آرایشی بهداشتی",
+     "slug": "cosmetics-store",
+     "icon": ""
+    },
+    {
+     "name": "طلا فروشی",
+     "slug": "gold-store",
+     "icon": ""
+    },
+    {
+     "name": "تزیینات و دکوراسیون خانه",
+     "slug": "home-goods-and-accessories-store",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه لوازم خانه",
+     "slug": "electrical-appliances-store",
+     "icon": ""
+    },
+    {
+     "name": "فرش فروشی",
+     "slug": "rug-store",
+     "icon": ""
+    },
+    {
+     "name": "الکتریکی",
+     "slug": "electrical-equipment-store",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه کامپیوتری",
+     "slug": "computer-store",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه تلفن همراه",
+     "slug": "cell-phone-store",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه لوازم عکاسی و فیلمبرداری",
+     "slug": "camera-accessories-store",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه صوتی و تصویری",
+     "slug": "audio-visual-equipment-shop",
+     "icon": ""
+    },
+    {
+     "name": "گل فروشی",
+     "slug": "florist",
+     "icon": ""
+    },
+    {
+     "name": "فروشگاه لوازم تحریر",
+     "slug": "stationery-store",
+     "icon": ""
+    }
+   ],
+   "preview_count": 6
+  },
+  {
+   "title": "دفاتر خدماتی",
+   "slug": "government-authority-and-administration",
+   "categories": [
+    {
+     "name": "دفتر خدمات الکترونیک شهر",
+     "slug": "city-electronic-services-offices",
+     "icon": ""
+    },
+    {
+     "name": "دفتر پیشخوان دولت",
+     "slug": "pishkhan-office",
+     "icon": ""
+    },
+    {
+     "name": "پلیس +۱۰",
+     "slug": "police-10",
+     "icon": ""
+    },
+    {
+     "name": "دفتر بیمه تامین اجتماعی",
+     "slug": "social-security-office",
+     "icon": ""
+    },
+    {
+     "name": "دفتر اسناد رسمی",
+     "slug": "notary-public",
+     "icon": ""
+    },
+    {
+     "name": "شورای حل اختلاف",
+     "slug": "dispute-resolution-council",
+     "icon": ""
+    },
+    {
+     "name": "دفتر خدمات قضایی",
+     "slug": "judicial-services-bureau",
+     "icon": ""
+    },
+    {
+     "name": "دارالترجمه",
+     "slug": "translation-office",
+     "icon": ""
+    },
+    {
+     "name": "دفتر پست",
+     "slug": "post-office",
+     "icon": ""
+    },
+    {
+     "name": "دفتر وکالت",
+     "slug": "lawyer",
+     "icon": ""
+    }
+   ],
+   "preview_count": 6
+  },
+  {
+   "title": "خدمات",
+   "slug": "business-and-services",
+   "categories": [
+    {
+     "name": "پارکینگ",
+     "slug": "parking",
+     "icon": ""
+    },
+    {
+     "name": "خودپرداز",
+     "slug": "atm",
+     "icon": ""
+    },
+    {
+     "name": "سرویس بهداشتی",
+     "slug": "public-bathroom",
+     "icon": ""
+    },
+    {
+     "name": "مسجد",
+     "slug": "mosque",
+     "icon": ""
+    },
+    {
+     "name": "خدمات باربری",
+     "slug": "shipping-company",
+     "icon": ""
+    },
+    {
+     "name": "آتلیه فیلم و عکس",
+     "slug": "video-and-photo-studio",
+     "icon": ""
+    },
+    {
+     "name": "آژانس مسافرتی",
+     "slug": "travel-agency",
+     "icon": ""
+    },
+    {
+     "name": "آرایش و پیرایش",
+     "slug": "makeup-and-trimming",
+     "icon": ""
+    },
+    {
+     "name": "کلید سازی",
+     "slug": "key-duplication-service",
+     "icon": ""
+    },
+    {
+     "name": "خیاطی",
+     "slug": "tailoring-clothes-showroom",
+     "icon": ""
+    },
+    {
+     "name": "خشکشویی",
+     "slug": "dry-cleaner",
+     "icon": ""
+    },
+    {
+     "name": "مشاور املاک",
+     "slug": "estate-agency",
+     "icon": ""
+    },
+    {
+     "name": "خدمات ساختمانی",
+     "slug": "building-services",
+     "icon": ""
+    },
+    {
+     "name": "مرکز تعمیر تجهیزات برقی",
+     "slug": "equipment-repair",
+     "icon": ""
+    },
+    {
+     "name": "مرکز تعمیر کیف و کفش",
+     "slug": "bag-and-shoes-repair",
+     "icon": ""
+    }
+   ],
+   "preview_count": 6
+  },
+  {
+   "title": "خدمات خودرو",
+   "slug": "automotive",
+   "categories": [
+    {
+     "name": "فروشگاه قطعات یدکی خودرو",
+     "slug": "auto-parts-store",
+     "icon": ""
+    },
+    {
+     "name": "تعمیرگاه خودرو",
+     "slug": "car-servicing",
+     "icon": ""
+    },
+    {
+     "name": "مرکز معاینه فنی خودرو",
+     "slug": "car-inspection",
+     "icon": ""
+    },
+    {
+     "name": "مرکز تعویض پلاک",
+     "slug": "plate-number-registration-center",
+     "icon": ""
+    },
+    {
+     "name": "مرکز کارشناسی خودرو",
+     "slug": "car-evaluation-center",
+     "icon": ""
+    },
+    {
+     "name": "کارواش",
+     "slug": "car-wash",
+     "icon": ""
+    },
+    {
+     "name": "پمپ بنزین",
+     "slug": "gas-station",
+     "icon": ""
+    },
+    {
+     "name": "پمپ گاز (CNG)",
+     "slug": "cng-station",
+     "icon": ""
+    },
+    {
+     "name": "ایستگاه شارژ خودرو برقی",
+     "slug": "car-charging-station",
+     "icon": ""
+    }
+   ],
+   "preview_count": 6
+  },
+  {
+   "title": "تفریح و ورزش",
+   "slug": "sports",
+   "categories": [
+    {
+     "name": "استخر",
+     "slug": "pool",
+     "icon": ""
+    },
+    {
+     "name": "باشگاه ورزشی",
+     "slug": "sports-club",
+     "icon": ""
+    },
+    {
+     "name": "مکان تاریخی",
+     "slug": "historical-place",
+     "icon": ""
+    },
+    {
+     "name": "پارک",
+     "slug": "park",
+     "icon": ""
+    },
+    {
+     "name": "موزه",
+     "slug": "museum",
+     "icon": ""
+    },
+    {
+     "name": "پارک آبی",
+     "slug": "water-park",
+     "icon": ""
+    },
+    {
+     "name": "باغ وحش",
+     "slug": "zoo",
+     "icon": ""
+    },
+    {
+     "name": "شهربازی",
+     "slug": "amusement-park",
+     "icon": ""
+    },
+    {
+     "name": "سینما",
+     "slug": "cinema",
+     "icon": ""
+    },
+    {
+     "name": "تئاتر و تماشاخانه",
+     "slug": "theater",
+     "icon": ""
+    },
+    {
+     "name": "گالری",
+     "slug": "art-gallery",
+     "icon": ""
+    }
+   ],
+   "preview_count": 6
+  }
+ ]
+}

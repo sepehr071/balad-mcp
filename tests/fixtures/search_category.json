@@ -1,0 +1,111 @@
+{
+ "results": [
+  {
+   "poi-tokens": [
+    "6pisFJMaHh1Zti",
+    "2bAtnpyHepOZFI",
+    "3L7S7Bsa8IsGB7",
+    "3kXQAftZ31ilQx",
+    "5SEnvUWqEXxJGS"
+   ],
+   "maintext": "داروخانه",
+   "formatted_maintext": "{{داروخانه}}",
+   "subtext1": "نمایش نتایج داروخانه روی نقشه",
+   "formatted_subtext1": "نمایش نتایج داروخانه روی نقشه",
+   "bundle_id": 10655,
+   "bundle_slug": "pharmacy",
+   "type": "bundle-poi",
+   "view_type": "bundle-poi",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/bundle.png",
+   "list_text_main": "",
+   "list_text_alert": "",
+   "list_text_alert_info": "",
+   "list_text_alert_clicked_query": "",
+   "bundle_paging_meta": {
+    "score": 5.842733,
+    "distance": 2,
+    "tie_breaker": "61f9krRv6FLSZj"
+   },
+   "related_bundles": null,
+   "parent_slug": null
+  },
+  {
+   "type": "poi",
+   "view_type": "poi",
+   "maintext": "داروخانه مهر ماه مظفری",
+   "formatted_maintext": "{{داروخانه}} مهر ماه مظفری",
+   "subtext1": "تهران، انقلاب، خ. خارک، کوچه یکم",
+   "formatted_subtext1": "تهران، انقلاب، خ. خارک، کوچه یکم",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/health.png",
+   "id": "6pisFJMaHh1Zti",
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      51.410104,
+      35.700765
+     ]
+    ]
+   },
+   "center_point": [
+    51.410104,
+    35.700765
+   ],
+   "score": "5.852117",
+   "extra_info": [],
+   "neighborhood_name": "محله انقلاب",
+   "street_name": "خ. خارک",
+   "phone": "02166769682",
+   "second_stage_id": "UDI-POI_6pisFJMaHh1Zti",
+   "images": [],
+   "short_text": "",
+   "ad_properties": {},
+   "badges": [],
+   "distance": "260 متر",
+   "poi-tokens": [
+    "6pisFJMaHh1Zti"
+   ],
+   "doc_id": "1013224315"
+  },
+  {
+   "type": "poi",
+   "view_type": "poi",
+   "maintext": "داروخانه دکتر فیض بخش",
+   "formatted_maintext": "{{داروخانه}} دکتر فیض بخش",
+   "subtext1": "تهران، ولیعصر، خ. انقلاب، کنارگذر انقلاب",
+   "formatted_subtext1": "تهران، ولیعصر، خ. انقلاب، کنارگذر انقلاب",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/health.png",
+   "id": "2bAtnpyHepOZFI",
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      51.411887,
+      35.701567
+     ]
+    ]
+   },
+   "center_point": [
+    51.411887,
+    35.701567
+   ],
+   "score": "5.851994",
+   "extra_info": [],
+   "neighborhood_name": "محله ولیعصر",
+   "street_name": "خ. انقلاب",
+   "thumbnail": "https://cdn.balad.ir/crowd-images/all/original/e8a55511658e46c2ba016fe1e0bf0a51-ei_1660238167082.jpg?x-img=v1/resize,w_192/autorotate",
+   "phone": "02166404942",
+   "second_stage_id": "UDI-POI_2bAtnpyHepOZFI",
+   "images": [],
+   "short_text": "",
+   "ad_properties": {},
+   "badges": [],
+   "distance": "273 متر",
+   "poi-tokens": [
+    "2bAtnpyHepOZFI"
+   ],
+   "doc_id": "1012820716"
+  }
+ ],
+ "text": "داروخانه"
+}

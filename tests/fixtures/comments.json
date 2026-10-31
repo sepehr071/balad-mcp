@@ -1,0 +1,362 @@
+{
+ "total": 649,
+ "total_comments": 301,
+ "average_rate": 4.6,
+ "rate_details": [
+  37,
+  16,
+  27,
+  37,
+  532
+ ],
+ "comments": [
+  {
+   "rate": 5.0,
+   "id": 2232412,
+   "created_at": "دو ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 1,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "کاربر بلد",
+   "user_image": null,
+   "image_url": null,
+   "profile": {
+    "id": "58cf26159f872426",
+    "full_name": "کاربر بلد",
+    "image_url": null,
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "به‌‎​‎‎​ نظرمن‌‎‌​‌​ خیلی‌‎​‎‏‏ عالی بود",
+   "reviewer_footprint": {
+    "text": "تا به حال ۶ نظر نوشته",
+    "icon": null
+   }
+  },
+  {
+   "rate": 1.0,
+   "id": 2227110,
+   "created_at": "سه ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 3,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 2,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "کاربر بلد",
+   "user_image": null,
+   "image_url": null,
+   "profile": {
+    "id": "c366f054a9ecbce4",
+    "full_name": "کاربر بلد",
+    "image_url": null,
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "من‌‎​‎‎​ هنوز‌‎‌​‌​ به برج‌‎​‎‏‏ میلاد نرفتم",
+   "reviewer_footprint": null
+  },
+  {
+   "rate": 5.0,
+   "id": 2216107,
+   "created_at": "سه ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 3,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "AmirHossein Karami",
+   "user_image": "https://cdn.balad.ir/account/profile-images/0b6f6289effff44d-zGzAChSNGtAO1w%3D%3D.jpg",
+   "image_url": "https://cdn.balad.ir/account/profile-images/0b6f6289effff44d-zGzAChSNGtAO1w%3D%3D.jpg",
+   "profile": {
+    "id": "0b6f6289effff44d",
+    "full_name": "AmirHossein Karami",
+    "image_url": "https://cdn.balad.ir/account/profile-images/0b6f6289effff44d-zGzAChSNGtAO1w%3D%3D.jpg",
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "خوبه...‌‎​‎‎​‌‎‌​‌​‌‎​‎‏‏",
+   "reviewer_footprint": {
+    "text": "۲۰ نظر برای جاذبه گردشگری",
+    "icon": null
+   }
+  },
+  {
+   "rate": 5.0,
+   "id": 2210701,
+   "created_at": "سه ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 1,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "کاربر بلد",
+   "user_image": null,
+   "image_url": null,
+   "profile": {
+    "id": "57866b620e3289f6",
+    "full_name": "کاربر بلد",
+    "image_url": null,
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "عالی‌‎​‎‎​‌‎‌​‌​‌‎​‎‏‏",
+   "reviewer_footprint": null
+  },
+  {
+   "rate": 5.0,
+   "id": 2201674,
+   "created_at": "۴ ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 2,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "کاربر بلد",
+   "user_image": null,
+   "image_url": null,
+   "profile": {
+    "id": "1e2380137093f768",
+    "full_name": "کاربر بلد",
+    "image_url": null,
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "خیلی‌‎​‎‎​ خوب و جذابه‌‎‌​‌​ یکی از دیدنی‌‎​‎‏‏ ترین برج های ایرانه",
+   "reviewer_footprint": null
+  },
+  {
+   "rate": 5.0,
+   "id": 2192669,
+   "created_at": "۴ ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 4,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 2,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "بازرگانی آرین سخایی ",
+   "user_image": "https://cdn.balad.ir/account/profile-images/0afc8953fd315fa1-dm9SA8kSbrTMJg%3D%3D.jpg",
+   "image_url": "https://cdn.balad.ir/account/profile-images/0afc8953fd315fa1-dm9SA8kSbrTMJg%3D%3D.jpg",
+   "profile": {
+    "id": "0afc8953fd315fa1",
+    "full_name": "بازرگانی آرین سخایی ",
+    "image_url": "https://cdn.balad.ir/account/profile-images/0afc8953fd315fa1-dm9SA8kSbrTMJg%3D%3D.jpg",
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "هر‌‎​‎‎​ روز کنارشم ولی هنوز نرفتم بلخره‌‎‌​‌​ رفتم جالب بود مخصوصا طبقه آخر‌‎​‎‏‏ ارزش یکبار دیدن داره برید رفقا",
+   "reviewer_footprint": {
+    "text": "۹ نظر برای جاذبه گردشگری",
+    "icon": null
+   }
+  },
+  {
+   "rate": 5.0,
+   "id": 2190502,
+   "created_at": "۴ ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 2,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "کاربر بلد",
+   "user_image": null,
+   "image_url": null,
+   "profile": {
+    "id": "9789aa06b8cb5a85",
+    "full_name": "کاربر بلد",
+    "image_url": null,
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "من‌‎​‎‎​ رفتم خیلی خوبه الوطه من‌‎‌​‌​ و مامان بابام خیلی از‌‎​‎‏‏ بالای بالای بالاش می ترسیم",
+   "reviewer_footprint": {
+    "text": "تا به حال ۷ نظر نوشته",
+    "icon": null
+   }
+  },
+  {
+   "rate": 5.0,
+   "id": 2185157,
+   "created_at": "۴ ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 0,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "مجید ",
+   "user_image": null,
+   "image_url": null,
+   "profile": {
+    "id": "e856e6536b0de6cb",
+    "full_name": "مجید ",
+    "image_url": null,
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "از‌‎​‎‎​ شگفتی های مهندسی ایرانی و نماد‌‎‌​‌​ تهران جدید است همراه با فضاهای‌‎​‎‏‏ رستوران و گیم و موزه فضانوردی",
+   "reviewer_footprint": {
+    "text": "۵ نظر برای جاذبه گردشگری",
+    "icon": null
+   }
+  },
+  {
+   "rate": 5.0,
+   "id": 2183998,
+   "created_at": "۴ ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 1,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "میلادعلیمردانی ",
+   "user_image": null,
+   "image_url": null,
+   "profile": {
+    "id": "db98448ad810f69a",
+    "full_name": "میلادعلیمردانی ",
+    "image_url": null,
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "خیلی‌‎​‎‎​ برج‌‎‌​‌​ خوبیه فقط‌‎​‎‏‏ ورودیش گرونه",
+   "reviewer_footprint": {
+    "text": "تا به حال ۷۵ نظر نوشته",
+    "icon": null
+   }
+  },
+  {
+   "rate": 5.0,
+   "id": 2142983,
+   "created_at": "۵ ماه پیش",
+   "status": "Approved",
+   "images": [],
+   "feedback": {
+    "like": {
+     "count": 2,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "writer": false,
+   "user_name": "آیهان عبدی",
+   "user_image": null,
+   "image_url": null,
+   "profile": {
+    "id": "8ad5d3cd36900e3b",
+    "full_name": "آیهان عبدی",
+    "image_url": null,
+    "click_action": {
+     "type": "open_page",
+     "data": "user_profile"
+    }
+   },
+   "comment": "عالیییییی‌‎​‎‎​‌‎‌​‌​‌‎​‎‏‏",
+   "reviewer_footprint": {
+    "text": "۶ نظر برای جاذبه گردشگری",
+    "icon": null
+   }
+  }
+ ],
+ "pagination": {
+  "page": 2,
+  "next_page": 3,
+  "prev_page": 1,
+  "total_pages": 31,
+  "page_size": 10
+ }
+}

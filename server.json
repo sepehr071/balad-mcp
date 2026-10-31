@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sepehr071/balad-mcp",
+  "title": "Balad Maps",
+  "description": "Read-only Balad (balad.ir) Iran map: places nearby or on the way, details, reviews, driving routes.",
+  "repository": {
+    "url": "https://github.com/sepehr071/balad-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/sepehr071/balad-mcp",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "balad-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "BALAD_MCP_PROXY",
+          "description": "Optional HTTP proxy URL for the Balad requests; system proxy settings are ignored. Also accepts a comma-separated list: one is used until it gets blocked or fails to connect, then the next.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

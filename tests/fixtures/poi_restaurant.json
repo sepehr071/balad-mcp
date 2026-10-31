@@ -1,0 +1,362 @@
+{
+ "id": 15065908,
+ "token": "21n5izaolvOtcI",
+ "name": "کافه رستوران سپه",
+ "seo_details": {
+  "name": "کافه رستوران سپه محله منیریه تهران",
+  "page_title": "کافه رستوران سپه محله منیریه تهران؛ آدرس، تلفن، ساعت کاری | نقشه و مسیریاب بلد",
+  "url_title": "کافه-رستوران-سپه-tehran-nei-moniriyeh_restaurant",
+  "description": "اطلاعات کامل کافه رستوران سپه محله منیریه تهران به همراه آدرس، ساعت کاری، شماره تلفن با امتیاز 5.0 را در نقشه و مسیریاب بلد بیابید.",
+  "image": "https://cdn.balad.ir/crowd-images/review-photo/PLeIFA6heunsyQ.jpg",
+  "content_group": null,
+  "no_index": false
+ },
+ "category": "رستوران",
+ "rating": {
+  "score": 5,
+  "count": 2
+ },
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   51.403103,
+   35.686918
+  ]
+ },
+ "fields": [
+  {
+   "type": "dropdown",
+   "icon": "clock",
+   "title": "ساعت کاری",
+   "fields": [
+    {
+     "type": "list",
+     "titles": [
+      "شنبه",
+      "یکشنبه",
+      "دوشنبه",
+      "سه‌شنبه",
+      "چهارشنبه",
+      "پنج‌شنبه",
+      "جمعه"
+     ],
+     "items": [
+      "۱۰ صبح – ۹ شب",
+      "۱۰ صبح – ۹ شب",
+      "۱۰ صبح – ۹ شب",
+      "۱۰ صبح – ۹ شب",
+      "۱۰ صبح – ۹ شب",
+      "۱۰ صبح – ۹ شب",
+      "۱۰ صبح – ۹ شب"
+     ]
+    }
+   ],
+   "message": "باز است",
+   "open": true
+  },
+  {
+   "type": "text",
+   "value": "تهران، امام خمینی، نرسیده به تقاطع ولیعصر",
+   "icon": "gps",
+   "text": null,
+   "sub_text": null
+  },
+  {
+   "type": "link",
+   "value": "tel://02166494950",
+   "icon": "phone",
+   "text": "02166494950",
+   "sub_text": null
+  },
+  {
+   "type": "link",
+   "value": "https://sefareshfood.com/menu/SepahRestaurant-restaurant-teh?Comment",
+   "icon": "web",
+   "text": "https://sefareshfood.com/menu/SepahRestaurant-restaurant-teh?Comment",
+   "sub_text": null
+  },
+  {
+   "type": "modal",
+   "value": "edit",
+   "icon": "edit",
+   "text": "ویرایش اطلاعات",
+   "sub_text": "ویرایش نام، دسته‌بندی، آدرس، موقعیت‌ مکانی و ..."
+  },
+  {
+   "type": "modal",
+   "value": "delete",
+   "icon": "delete",
+   "text": "درخواست حذف مکان",
+   "sub_text": "تکراری است، بسته است، وجود ندارد و ..."
+  },
+  {
+   "type": "link",
+   "value": "https://business.balad.ir/bpoi/claim/21n5izaolvOtcI?did=x&channel=web",
+   "icon": "claim_business",
+   "text": "من صاحب این کسب‌و‌کار هستم",
+   "sub_text": null
+  }
+ ],
+ "description": null,
+ "phone_link": "tel://02166494950",
+ "reviews": {
+  "total": 2,
+  "total_comments": 1,
+  "average_rate": 5,
+  "rate_details": [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "comments": [
+   {
+    "rate": 5.0,
+    "id": 2329666,
+    "created_at": "۵ روز پیش",
+    "status": "Approved",
+    "images": [
+     {
+      "preview": "https://cdn.balad.ir/crowd-images/review-photo/PLeIFA6heunsyQ.jpg?x-img=v1/crop,x_0,y_187,w_2000,h_1126/resize,h_563,w_1000/autorotate",
+      "full": "https://cdn.balad.ir/crowd-images/review-photo/PLeIFA6heunsyQ.jpg",
+      "full_width": 2000,
+      "full_height": 1500,
+      "full_orientation": 1,
+      "id": "review_photo-337632",
+      "type": "review_photo",
+      "owner": false,
+      "created_date": "۵ روز پیش",
+      "feedback": {
+       "like": {
+        "count": 0,
+        "user_feedback": false
+       },
+       "dislike": {
+        "count": 0,
+        "user_feedback": false
+       }
+      },
+      "profile": {
+       "id": "d14566cf052a6d87",
+       "full_name": "کاربر بلد",
+       "image_url": null,
+       "click_action": {
+        "type": "open_page",
+        "data": "user_profile"
+       }
+      },
+      "source": null
+     },
+     {
+      "preview": "https://cdn.balad.ir/crowd-images/review-photo/6Joa2GDQMzqmHz.jpg?x-img=v1/crop,x_0,y_187,w_2000,h_1126/resize,h_563,w_1000/autorotate",
+      "full": "https://cdn.balad.ir/crowd-images/review-photo/6Joa2GDQMzqmHz.jpg",
+      "full_width": 2000,
+      "full_height": 1500,
+      "full_orientation": 1,
+      "id": "review_photo-337631",
+      "type": "review_photo",
+      "owner": false,
+      "created_date": "۵ روز پیش",
+      "feedback": {
+       "like": {
+        "count": 0,
+        "user_feedback": false
+       },
+       "dislike": {
+        "count": 0,
+        "user_feedback": false
+       }
+      },
+      "profile": {
+       "id": "d14566cf052a6d87",
+       "full_name": "کاربر بلد",
+       "image_url": null,
+       "click_action": {
+        "type": "open_page",
+        "data": "user_profile"
+       }
+      },
+      "source": null
+     }
+    ],
+    "feedback": {
+     "like": {
+      "count": 0,
+      "user_feedback": false
+     },
+     "dislike": {
+      "count": 0,
+      "user_feedback": false
+     }
+    },
+    "writer": false,
+    "user_name": "کاربر بلد",
+    "user_image": null,
+    "image_url": null,
+    "profile": {
+     "id": "d14566cf052a6d87",
+     "full_name": "کاربر بلد",
+     "image_url": null,
+     "click_action": {
+      "type": "open_page",
+      "data": "user_profile"
+     }
+    },
+    "comment": "مراسم‌‎​‎‎​ افطاری رو اونجا‌‎‌​‌​ گرفتیم. کیفیت غذاها‌‎​‎‏‏ و پذیرایی عالی بود",
+    "reviewer_footprint": null
+   }
+  ]
+ },
+ "top_extra_fields": [
+  {
+   "value": "<span style=\"color:#757575\">این مکان توسط صاحب کسب&zwnj;و&zwnj;کار مدیریت می&zwnj;شود.</span>",
+   "type": "html"
+  }
+ ],
+ "middle_extra_fields": [],
+ "bottom_extra_fields": [],
+ "traits": null,
+ "images": [
+  {
+   "id": "review_photo-337632",
+   "preview": "https://cdn.balad.ir/crowd-images/review-photo/PLeIFA6heunsyQ.jpg?x-img=v1/crop,x_0,y_187,w_2000,h_1126/resize,h_563,w_1000/autorotate",
+   "full": "https://cdn.balad.ir/crowd-images/review-photo/PLeIFA6heunsyQ.jpg",
+   "full_width": 2000,
+   "full_height": 1500,
+   "full_orientation": 1,
+   "profile": {
+    "id": "d14566cf052a6d87",
+    "full_name": "کاربر بلد",
+    "image_url": null
+   },
+   "resized_urls": null,
+   "owner": false,
+   "type": "review_photo",
+   "created_date": "۵ روز پیش",
+   "feedback": {
+    "like": {
+     "count": 0,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   }
+  },
+  {
+   "id": "review_photo-337631",
+   "preview": "https://cdn.balad.ir/crowd-images/review-photo/6Joa2GDQMzqmHz.jpg?x-img=v1/crop,x_0,y_187,w_2000,h_1126/resize,h_563,w_1000/autorotate",
+   "full": "https://cdn.balad.ir/crowd-images/review-photo/6Joa2GDQMzqmHz.jpg",
+   "full_width": 2000,
+   "full_height": 1500,
+   "full_orientation": 1,
+   "profile": {
+    "id": "d14566cf052a6d87",
+    "full_name": "کاربر بلد",
+    "image_url": null
+   },
+   "resized_urls": null,
+   "owner": false,
+   "type": "review_photo",
+   "created_date": "۵ روز پیش",
+   "feedback": {
+    "like": {
+     "count": 0,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   }
+  },
+  {
+   "id": "poi_photo-3756285",
+   "preview": "https://cdn.balad.ir/crowd-images/all/original/47nwWKX2M5pfn7.jpg?x-img=v1/crop,x_0,y_140,w_641,h_361/resize,h_361,w_641/autorotate",
+   "full": "https://cdn.balad.ir/crowd-images/all/original/47nwWKX2M5pfn7.jpg",
+   "full_width": 641,
+   "full_height": 641,
+   "full_orientation": 1,
+   "profile": {
+    "id": "fe868179b195af7f",
+    "full_name": "صاحب کسب و کار",
+    "image_url": null
+   },
+   "resized_urls": null,
+   "owner": false,
+   "type": "poi_photo",
+   "created_date": "۲۴ روز پیش",
+   "feedback": {
+    "like": {
+     "count": 0,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "source": "photo_add"
+  },
+  {
+   "id": "poi_photo-3756283",
+   "preview": "https://cdn.balad.ir/crowd-images/all/original/3yc6WLeDy0hVI6.jpg?x-img=v1/crop,x_0,y_262,w_1200,h_676/resize,h_563,w_1000/autorotate",
+   "full": "https://cdn.balad.ir/crowd-images/all/original/3yc6WLeDy0hVI6.jpg",
+   "full_width": 1200,
+   "full_height": 1200,
+   "full_orientation": 1,
+   "profile": {
+    "id": "fe868179b195af7f",
+    "full_name": "صاحب کسب و کار",
+    "image_url": null
+   },
+   "resized_urls": null,
+   "owner": false,
+   "type": "poi_photo",
+   "created_date": "۲۴ روز پیش",
+   "feedback": {
+    "like": {
+     "count": 0,
+     "user_feedback": false
+    },
+    "dislike": {
+     "count": 0,
+     "user_feedback": false
+    }
+   },
+   "source": "photo_add"
+  }
+ ],
+ "currency": null,
+ "main_traits": null,
+ "menu": {
+  "link": {
+   "href": "https://sefareshfood.com/menu/SepahRestaurant-restaurant-teh"
+  },
+  "icon": "https://cdn.balad.ir/neda-static-files/poi/static/icon/menu_button_v2.png",
+  "icon_type": "image",
+  "text": "منو"
+ },
+ "price_range": null,
+ "is_ad": false,
+ "badges": [
+  {
+   "icon": "https://cdn.balad.ir/neda-static-files/poi/static/icon/verification_badge.png",
+   "label": "verification",
+   "description": "این مکان توسط صاحب کسب‌و‌کار اداره می‌شود",
+   "icon_color": "#40A7E3",
+   "click_action": {
+    "type": "show_message",
+    "data": "این مکان توسط صاحب کسب‌و‌کار اداره می‌شود"
+   }
+  }
+ ],
+ "posts": {
+  "preview_count": 1,
+  "title": "پست‌های کسب و کار",
+  "subtitle": "۱ پست",
+  "tab_title": "پست‌ها"
+ }
+}

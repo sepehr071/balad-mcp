@@ -1,0 +1,15 @@
+{
+ "title": "امکانات و ویژگی‌ها",
+ "groups": [
+  {
+   "title": "امکانات اصلی",
+   "items": [
+    {
+     "title": "پیک",
+     "icon_url": "https://cdn.balad.ir/crowd-images/trait-images/8e76406ee12247aebf344e542e7eedcf.png",
+     "text_color": "#000000"
+    }
+   ]
+  }
+ ]
+}

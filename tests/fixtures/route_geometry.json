@@ -1,0 +1,619 @@
+{
+ "message": "",
+ "routes": [
+  {
+   "distance": 12945.762397,
+   "duration": 1429.206999,
+   "geometry": "c~sdcA_iv~`BfB{GhAoQpDzVlCfGlE`C~PtA`Bz@xA~AxBzOnBzFhG~E~AfHsAdCy\\dMu@pCOzDZrBt@rBrG|Fx@zAfA`Dz@vG~Il_@`Fj^~BxE~CnD~NlIbNvF`X|KxCxHr@`Km@`JyBlHoFzFwEfByEUsn@g_@iHaKyByE}CsZeBiC{B_@eAdAYfHp@hK|CfTbEdRnGhT~CtPjAhRAfS{ErNiEvD}E|AodAmC{RwCin@aQmPaI}RiL}WsVgy@_aAeFgRE}EcOuMiJcM{IyNoKyU}Kg]uHm[yDiWEkFxC{VA}CsAiFqLyPaEgKeBs^uAuf@`F{E|JeEfExB|AClBy@nAqAbCmFxAuJHyIq@yHfDuDjJoCty@uFxfAwGvHsAzLyF|D{CxgAadAfDmBnE_AvEe@tIA`NxFrGnG`DbFhc@dkApAtDhKzVjDhGrKvNvTbTn\\fT|HhG|FhH`EhIxJp[tSlxBzPb|Al^vjCzOd_AzUvxArOdcAjFz`@vDpc@`JrxAjEjyAIpy@uC`qA}FvgAcEll@in@v_Hwa@njEgPznB}Bz`@uDdtANbe@iAfM_Cpq@wH`OcFvC{FhB}Mj@wG_AsFaCuMaMuDkHgEyV?wHnBaQ~AaFxEaG`FuCzLuBdl@h@`g@tIzYdDvZ`Bdg@ObSyA`W_Dbv@_M~i@eKzdDyp@teF{_A`q@aMpJeBjjAiT~]uCxoEKndEjIhWVzUwAnSkEvVkJhWeOvUcTtr@y{@tOiPvTuN~Q{HbRgFvJkA|wBqPt{@yHvyAeN|d@{D~Y}GbWwKhZiR`P}OdR_VhxB_yCjJiDfFu@dFDtF~@nX~Jn\\~Ln{@h]|FjCpMjGDn@bBjEdBdAtBNd@Gp\\bDhRtAhF\\l[lBdVzAhVjA|Vv@pWn@bPn@`\\hDtMnAjM`@~YmBbH[LlVZbi@l@pdARr`AtClsBj@xs@f@np@f@jk@Rp_@|@tdA`@|g@PtTVxe@lEfh@BlOJft@@zIf@dzBWzKsBdMwDvJmHjKsFtEqEpFkDxGeCxHeBnIsB`Rs@nX",
+   "weight": 13091.059262,
+   "legs": [
+    {
+     "duration": 1429.206999,
+     "distance": 12945.762397,
+     "weight": 13091.059262,
+     "summary": "بزرگراه حکیم غرب, 24، بزرگراه یادگار امام جنوب, 47، بلوار حبیب‌الله, 307",
+     "steps": [
+      {
+       "distance": 41.058,
+       "duration": 24.634,
+       "name": "",
+       "maneuver": {
+        "instruction": "مسیر مستقیم",
+        "modifier": "straight",
+        "type": "depart"
+       }
+      },
+      {
+       "distance": 178.49,
+       "duration": 35.698,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "sharp_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 666.367999,
+       "duration": 92.042,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 829.562,
+       "duration": 87.835,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 489.19,
+       "duration": 64.961,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 39.171,
+       "duration": 6.409,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 632.962,
+       "duration": 96.044,
+       "name": "میدان آرش کمانگیر",
+       "maneuver": {
+        "instruction": "دومین خروجی، بلوار فرهنگ و هنر",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 3226.498,
+       "duration": 388.503,
+       "name": "بزرگراه حکیم غرب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 4416.128,
+       "duration": 345.01,
+       "name": "بزرگراه یادگار امام جنوب",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 326.757,
+       "duration": 51.331,
+       "name": "بلوار حبیب‌الله",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "slight_right",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 548.942,
+       "duration": 72.958,
+       "name": "میدان دکتر حسینی",
+       "maneuver": {
+        "instruction": "دومین خروجی، بلوار حبیب‌الله",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 1404.609999,
+       "duration": 145.467,
+       "name": "کنارگذر آزادی",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 146.026397,
+       "duration": 18.315,
+       "name": "میدان آزادی",
+       "maneuver": {
+        "instruction": "وارد میدان شوید",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 0.0,
+       "duration": 0.0,
+       "name": "",
+       "maneuver": {
+        "instruction": "شما به مقصد رسیدید",
+        "modifier": "straight",
+        "type": "arrive"
+       }
+      }
+     ]
+    }
+   ],
+   "can_turn_at_origin": false,
+   "message": "بزرگراه حکیم غرب, 24، بزرگراه یادگار امام جنوب, 47، بلوار حبیب‌الله, 307",
+   "tags": [
+    {
+     "type": "fastest_live_eta",
+     "title": "مسیر پیشنهادی"
+    }
+   ],
+   "routeLabels": [
+    {
+     "title": "2 دقیقه ترافیک",
+     "primaryColor": "#d32f2f",
+     "secondaryColor": "#f9eceb",
+     "url": "https://cdn.balad.ir/direction/icon/traffic.png"
+    }
+   ],
+   "uuid": "6329e40c-db6c-46c8-aa16-df2a2428d6cd",
+   "weight_name": "routability"
+  },
+  {
+   "distance": 11569.058397,
+   "duration": 1689.520999,
+   "weight": 14715.687187,
+   "legs": [
+    {
+     "duration": 1689.520999,
+     "distance": 11569.058397,
+     "weight": 14715.687187,
+     "summary": "بزرگراه شیخ فضل الله جنوب, 44، بزرگراه یادگار امام جنوب, 47، بلوار حبیب‌الله, 307",
+     "steps": [
+      {
+       "distance": 41.058,
+       "duration": 24.634,
+       "name": "",
+       "maneuver": {
+        "instruction": "مسیر مستقیم",
+        "modifier": "straight",
+        "type": "depart"
+       }
+      },
+      {
+       "distance": 178.49,
+       "duration": 35.698,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "sharp_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 666.367999,
+       "duration": 92.042,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 829.562,
+       "duration": 87.835,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 489.19,
+       "duration": 64.961,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 39.171,
+       "duration": 6.409,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 632.962,
+       "duration": 96.044,
+       "name": "میدان آرش کمانگیر",
+       "maneuver": {
+        "instruction": "دومین خروجی، بلوار فرهنگ و هنر",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 1127.506,
+       "duration": 115.369,
+       "name": "بزرگراه حکیم غرب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 3507.239,
+       "duration": 690.374,
+       "name": "بزرگراه شیخ فضل الله جنوب",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 438.24,
+       "duration": 98.31,
+       "name": "بزرگراه یادگار امام جنوب",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 1192.937,
+       "duration": 89.774,
+       "name": "بزرگراه یادگار امام جنوب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "slight_right",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 326.757,
+       "duration": 51.331,
+       "name": "بلوار حبیب‌الله",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "slight_right",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 548.942,
+       "duration": 72.958,
+       "name": "میدان دکتر حسینی",
+       "maneuver": {
+        "instruction": "دومین خروجی، بلوار حبیب‌الله",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 1404.609999,
+       "duration": 145.467,
+       "name": "کنارگذر آزادی",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 146.026397,
+       "duration": 18.315,
+       "name": "میدان آزادی",
+       "maneuver": {
+        "instruction": "وارد میدان شوید",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 0.0,
+       "duration": 0.0,
+       "name": "",
+       "maneuver": {
+        "instruction": "شما به مقصد رسیدید",
+        "modifier": "straight",
+        "type": "arrive"
+       }
+      }
+     ]
+    }
+   ],
+   "can_turn_at_origin": false,
+   "message": "بزرگراه شیخ فضل الله جنوب, 44، بزرگراه یادگار امام جنوب, 47، بلوار حبیب‌الله, 307",
+   "tags": [
+    {
+     "type": "shortest_live_typical",
+     "title": "مسیر جایگزین"
+    }
+   ],
+   "routeLabels": [
+    {
+     "title": "8 دقیقه ترافیک",
+     "primaryColor": "#d32f2f",
+     "secondaryColor": "#f9eceb",
+     "url": "https://cdn.balad.ir/direction/icon/traffic.png"
+    },
+    {
+     "title": "کمترین مصرف سوخت",
+     "primaryColor": "#0D8840",
+     "secondaryColor": "#ECF3ED",
+     "url": "https://cdn.balad.ir/direction/icon/gas.png"
+    }
+   ],
+   "uuid": "06e80a9f-f9e1-4acf-8186-b06b01898f95",
+   "weight_name": "routability"
+  },
+  {
+   "distance": 11923.290397,
+   "duration": 1754.604,
+   "weight": 13530.384919,
+   "legs": [
+    {
+     "duration": 1754.604,
+     "distance": 11923.290397,
+     "weight": 13530.384919,
+     "summary": "بزرگراه شیخ فضل الله جنوب, 44، بزرگراه جناح جنوب, 57، میدان آزادی",
+     "steps": [
+      {
+       "distance": 41.058,
+       "duration": 24.634,
+       "name": "",
+       "maneuver": {
+        "instruction": "مسیر مستقیم",
+        "modifier": "straight",
+        "type": "depart"
+       }
+      },
+      {
+       "distance": 178.49,
+       "duration": 35.698,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "sharp_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 666.367999,
+       "duration": 92.042,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 829.562,
+       "duration": 87.835,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 489.19,
+       "duration": 64.961,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 39.171,
+       "duration": 6.409,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 632.962,
+       "duration": 96.044,
+       "name": "میدان آرش کمانگیر",
+       "maneuver": {
+        "instruction": "دومین خروجی، بلوار فرهنگ و هنر",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 1127.506,
+       "duration": 115.369,
+       "name": "بزرگراه حکیم غرب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 4940.107999,
+       "duration": 909.851,
+       "name": "بزرگراه شیخ فضل الله جنوب",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 131.503999,
+       "duration": 10.314,
+       "name": "بزرگراه جناح جنوب",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 92.32,
+       "duration": 6.581,
+       "name": "بزرگراه جناح جنوب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "slight_right",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 1467.624,
+       "duration": 148.881,
+       "name": "بزرگراه جناح جنوب",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "slight_left",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 780.013,
+       "duration": 95.081,
+       "name": "میدان آزادی",
+       "maneuver": {
+        "instruction": "سومین خروجی",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 180.761,
+       "duration": 24.058,
+       "name": "میدان آزادی",
+       "maneuver": {
+        "instruction": "خروج از چپ",
+        "modifier": "slight_left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 326.653397,
+       "duration": 36.846,
+       "name": "میدان آزادی",
+       "maneuver": {
+        "instruction": "وارد میدان شوید",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 0.0,
+       "duration": 0.0,
+       "name": "",
+       "maneuver": {
+        "instruction": "شما به مقصد رسیدید",
+        "modifier": "straight",
+        "type": "arrive"
+       }
+      }
+     ]
+    }
+   ],
+   "can_turn_at_origin": false,
+   "message": "بزرگراه شیخ فضل الله جنوب, 44، بزرگراه جناح جنوب, 57، میدان آزادی",
+   "tags": [
+    {
+     "type": "trunkophile_live_typical",
+     "title": "مسیر جایگزین"
+    }
+   ],
+   "routeLabels": [
+    {
+     "title": "11 دقیقه ترافیک",
+     "primaryColor": "#d32f2f",
+     "secondaryColor": "#f9eceb",
+     "url": "https://cdn.balad.ir/direction/icon/traffic.png"
+    }
+   ],
+   "uuid": "c88c89c1-57ee-40a1-97b9-586cc4f58c1a",
+   "weight_name": "routability"
+  }
+ ],
+ "destinationTitle": "میدان آزادی",
+ "sourceTitle": "",
+ "waypoints": [
+  {
+   "name": "",
+   "location": [
+    51.375452,
+    35.744645
+   ]
+  },
+  {
+   "name": "میدان آزادی",
+   "location": [
+    51.338076,
+    35.699739
+   ]
+  }
+ ],
+ "restrictionOptions": {
+  "city": "مسیریابی فعلی",
+  "message": "تنظیمات این مسیریابی را تغییر دهید.",
+  "restrictions": [
+   {
+    "full_title": "طرح اصلی",
+    "slug": "avoid_restriction_daily",
+    "evenOdd": false,
+    "title": "اصلی",
+    "is_active": false
+   },
+   {
+    "full_title": "طرح کاهش آلودگی",
+    "slug": "avoid_restriction_pollution",
+    "evenOdd": false,
+    "title": "کاهش آلودگی",
+    "is_active": false
+   },
+   {
+    "full_title": "طرح زوج و فرد",
+    "slug": "avoid_restriction_even",
+    "evenOdd": true,
+    "title": "زوج و فرد",
+    "is_active": false
+   }
+  ]
+ },
+ "taxi_available": true,
+ "code": "Ok",
+ "uuid": "dc6f7312-1aa6-470a-98f3-f6e47187ef36"
+}

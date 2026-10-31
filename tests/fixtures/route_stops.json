@@ -1,0 +1,757 @@
+{
+ "message": "",
+ "routes": [
+  {
+   "distance": 23707.530161,
+   "duration": 3190.702999,
+   "weight": 15097.102488,
+   "legs": [
+    {
+     "duration": 1980.683999,
+     "distance": 15224.640186,
+     "weight": 13532.414713,
+     "summary": "بزرگراه شهید همت شرق, 14، بزرگراه مدرس جنوب, 15، مفتح جنوبی, 105",
+     "steps": [
+      {
+       "distance": 41.058,
+       "duration": 24.634,
+       "name": "",
+       "maneuver": {
+        "instruction": "مسیر مستقیم",
+        "modifier": "straight",
+        "type": "depart"
+       }
+      },
+      {
+       "distance": 178.49,
+       "duration": 35.698,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "sharp_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 666.367999,
+       "duration": 92.042,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 829.562,
+       "duration": 87.835,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 489.19,
+       "duration": 64.961,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 39.171,
+       "duration": 6.409,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 632.962,
+       "duration": 96.044,
+       "name": "میدان آرش کمانگیر",
+       "maneuver": {
+        "instruction": "دومین خروجی، بلوار فرهنگ و هنر",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 682.485,
+       "duration": 64.544,
+       "name": "بزرگراه حکیم غرب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 945.521,
+       "duration": 65.956,
+       "name": "بزرگراه شیخ فضل الله شمال",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 4333.566,
+       "duration": 783.208,
+       "name": "بزرگراه شهید همت شرق",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 190.63,
+       "duration": 15.597,
+       "name": "بزرگراه مدرس جنوب",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 4030.022,
+       "duration": 285.791,
+       "name": "بزرگراه مدرس جنوب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "slight_right",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 1507.486,
+       "duration": 262.192999,
+       "name": "مفتح",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "slight_left",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 183.694,
+       "duration": 31.695,
+       "name": "انقلاب",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 474.435186,
+       "duration": 64.077,
+       "name": "انقلاب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 0.0,
+       "duration": 0.0,
+       "name": "",
+       "maneuver": {
+        "instruction": "شما به مقصد اول رسیدید",
+        "modifier": "straight",
+        "type": "arrive"
+       }
+      }
+     ]
+    },
+    {
+     "duration": 1210.019,
+     "distance": 8482.889975,
+     "weight": 1564.687774,
+     "summary": "انقلاب, 136، اردبیل، آزادی, 146",
+     "steps": [
+      {
+       "distance": 118.147577,
+       "duration": 34.879,
+       "name": "انقلاب",
+       "maneuver": {
+        "instruction": "مسیر مستقیم، انقلاب",
+        "modifier": "straight",
+        "type": "depart"
+       }
+      },
+      {
+       "distance": 2538.113,
+       "duration": 361.392,
+       "name": "میدان فردوسی",
+       "maneuver": {
+        "instruction": "دومین خروجی، انقلاب",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 478.046,
+       "duration": 63.575,
+       "name": "میدان انقلاب اسلامی",
+       "maneuver": {
+        "instruction": "اولین خروجی، کارگر شمالی",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 1165.615,
+       "duration": 197.264,
+       "name": "نصرت",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 23.828,
+       "duration": 5.57,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 338.320999,
+       "duration": 39.378,
+       "name": "توحید",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 734.0,
+       "duration": 95.394,
+       "name": "اردبیل",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 193.647,
+       "duration": 26.721,
+       "name": "قانعی",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 2747.146,
+       "duration": 367.531,
+       "name": "آزادی",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 146.026397,
+       "duration": 18.315,
+       "name": "میدان آزادی",
+       "maneuver": {
+        "instruction": "وارد میدان شوید",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 0.0,
+       "duration": 0.0,
+       "name": "",
+       "maneuver": {
+        "instruction": "شما به مقصد رسیدید",
+        "modifier": "straight",
+        "type": "arrive"
+       }
+      }
+     ]
+    }
+   ],
+   "restriction": {
+    "restrictions": [
+     {
+      "full_title": "طرح ترافیک",
+      "slug": "avoid_restriction_daily",
+      "evenOdd": false,
+      "title": "ترافیک",
+      "message": "تا 18:00",
+      "is_active": true
+     }
+    ],
+    "message": "مسیر شما از طرح عبور می‌کنه."
+   },
+   "can_turn_at_origin": false,
+   "message": "بزرگراه شهید همت شرق, 14، بزرگراه مدرس جنوب, 15، انقلاب, 136",
+   "tags": [
+    {
+     "type": "fastest_live_eta",
+     "title": "مسیر پیشنهادی"
+    }
+   ],
+   "routeLabels": [],
+   "uuid": "796d9f47-a926-4a48-89f2-65da05eaae4a",
+   "weight_name": "routability"
+  },
+  {
+   "distance": 21304.319161,
+   "duration": 3573.206,
+   "weight": 17032.246326,
+   "legs": [
+    {
+     "duration": 2157.26,
+     "distance": 13814.349186,
+     "weight": 14965.705313,
+     "summary": "بزرگراه شیخ فضل الله جنوب, 44، بزرگراه جلال آل احمد شرق, 34، بزرگراه شهید گمنام شرق, 34",
+     "steps": [
+      {
+       "distance": 41.058,
+       "duration": 24.634,
+       "name": "",
+       "maneuver": {
+        "instruction": "مسیر مستقیم",
+        "modifier": "straight",
+        "type": "depart"
+       }
+      },
+      {
+       "distance": 178.49,
+       "duration": 35.698,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "sharp_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 666.367999,
+       "duration": 92.042,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 829.562,
+       "duration": 87.835,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 489.19,
+       "duration": 64.961,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 39.171,
+       "duration": 6.409,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 632.962,
+       "duration": 96.044,
+       "name": "میدان آرش کمانگیر",
+       "maneuver": {
+        "instruction": "دومین خروجی، بلوار فرهنگ و هنر",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 1127.506,
+       "duration": 115.369,
+       "name": "بزرگراه حکیم غرب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 1794.979,
+       "duration": 457.995,
+       "name": "بزرگراه شیخ فضل الله جنوب",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 2659.917999,
+       "duration": 202.089,
+       "name": "بزرگراه جلال آل احمد شرق",
+       "maneuver": {
+        "instruction": "خروج از راست",
+        "modifier": "slight_right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 586.413,
+       "duration": 50.88,
+       "name": "بزرگراه شهید گمنام شرق",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "slight_right",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 789.609,
+       "duration": 130.833,
+       "name": "بزرگراه شهید گمنام شرق",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "slight_right",
+        "type": "off ramp"
+       }
+      },
+      {
+       "distance": 322.953,
+       "duration": 40.787,
+       "name": "دکتر فاطمی",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 217.060999,
+       "duration": 36.502,
+       "name": "طباطبایی",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 88.056999,
+       "duration": 12.181,
+       "name": "جویبار",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 500.931,
+       "duration": 113.236,
+       "name": "زرتشت",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 42.979,
+       "duration": 7.621,
+       "name": "",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 753.859999,
+       "duration": 156.321,
+       "name": "حافظ شمالی",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 433.138,
+       "duration": 123.997,
+       "name": "کنارگذر حافظ",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 677.815,
+       "duration": 123.499,
+       "name": "طالقانی",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 270.732,
+       "duration": 56.519,
+       "name": "ایرانشهر",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 118.67,
+       "duration": 22.021,
+       "name": "حسینعلی البرز",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 174.539,
+       "duration": 24.546,
+       "name": "موسوی",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 81.842,
+       "duration": 11.832,
+       "name": "محمد آقا",
+       "maneuver": {
+        "instruction": "سمت چپ",
+        "modifier": "left",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 132.607,
+       "duration": 36.652,
+       "name": "آذرنوش",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 163.939186,
+       "duration": 26.757,
+       "name": "انقلاب",
+       "maneuver": {
+        "instruction": "سمت راست",
+        "modifier": "right",
+        "type": "turn"
+       }
+      },
+      {
+       "distance": 0.0,
+       "duration": 0.0,
+       "name": "",
+       "maneuver": {
+        "instruction": "شما به مقصد اول رسیدید",
+        "modifier": "straight",
+        "type": "arrive"
+       }
+      }
+     ]
+    },
+    {
+     "duration": 1415.946,
+     "distance": 7489.969975,
+     "weight": 2066.541013,
+     "summary": "انقلاب, 136، آزادی, 146، میدان آزادی",
+     "steps": [
+      {
+       "distance": 118.147577,
+       "duration": 34.879,
+       "name": "انقلاب",
+       "maneuver": {
+        "instruction": "مسیر مستقیم، انقلاب",
+        "modifier": "straight",
+        "type": "depart"
+       }
+      },
+      {
+       "distance": 2538.113,
+       "duration": 361.392,
+       "name": "میدان فردوسی",
+       "maneuver": {
+        "instruction": "دومین خروجی، انقلاب",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 4687.682999,
+       "duration": 1001.36,
+       "name": "میدان انقلاب اسلامی",
+       "maneuver": {
+        "instruction": "دومین خروجی، آزادی",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 146.026397,
+       "duration": 18.315,
+       "name": "میدان آزادی",
+       "maneuver": {
+        "instruction": "وارد میدان شوید",
+        "modifier": "straight",
+        "type": "roundabout"
+       }
+      },
+      {
+       "distance": 0.0,
+       "duration": 0.0,
+       "name": "",
+       "maneuver": {
+        "instruction": "شما به مقصد رسیدید",
+        "modifier": "straight",
+        "type": "arrive"
+       }
+      }
+     ]
+    }
+   ],
+   "restriction": {
+    "restrictions": [
+     {
+      "full_title": "طرح ترافیک",
+      "slug": "avoid_restriction_daily",
+      "evenOdd": false,
+      "title": "ترافیک",
+      "message": "تا 18:00",
+      "is_active": true
+     }
+    ],
+    "message": "مسیر شما از طرح عبور می‌کنه."
+   },
+   "can_turn_at_origin": false,
+   "message": "بزرگراه جلال آل احمد شرق, 34، انقلاب, 136، آزادی, 146",
+   "tags": [
+    {
+     "type": "shortest_max_speed",
+     "title": "مسیر جایگزین"
+    }
+   ],
+   "routeLabels": [
+    {
+     "title": "9 دقیقه ترافیک",
+     "primaryColor": "#d32f2f",
+     "secondaryColor": "#f9eceb",
+     "url": "https://cdn.balad.ir/direction/icon/traffic.png"
+    },
+    {
+     "title": "کمترین مصرف سوخت",
+     "primaryColor": "#0D8840",
+     "secondaryColor": "#ECF3ED",
+     "url": "https://cdn.balad.ir/direction/icon/gas.png"
+    }
+   ],
+   "uuid": "f19d8244-0530-471b-8db8-4f2f027c5209",
+   "weight_name": "routability"
+  }
+ ],
+ "destinationTitle": "میدان آزادی",
+ "sourceTitle": "",
+ "waypoints": [
+  {
+   "name": "",
+   "location": [
+    51.375452,
+    35.744645
+   ]
+  },
+  {
+   "name": "انقلاب, 136",
+   "location": [
+    51.4206,
+    35.7016
+   ]
+  },
+  {
+   "name": "میدان آزادی",
+   "location": [
+    51.338076,
+    35.699739
+   ]
+  }
+ ],
+ "restrictionOptions": {
+  "city": "مسیریابی فعلی",
+  "message": "تنظیمات این مسیریابی را تغییر دهید.",
+  "restrictions": [
+   {
+    "full_title": "طرح اصلی",
+    "slug": "avoid_restriction_daily",
+    "evenOdd": false,
+    "title": "اصلی",
+    "is_active": false
+   },
+   {
+    "full_title": "طرح کاهش آلودگی",
+    "slug": "avoid_restriction_pollution",
+    "evenOdd": false,
+    "title": "کاهش آلودگی",
+    "is_active": false
+   },
+   {
+    "full_title": "طرح زوج و فرد",
+    "slug": "avoid_restriction_even",
+    "evenOdd": true,
+    "title": "زوج و فرد",
+    "is_active": false
+   }
+  ]
+ },
+ "taxi_available": false,
+ "code": "Ok",
+ "uuid": "87546e8f-347b-42fb-918d-ec3133e4ab9a"
+}

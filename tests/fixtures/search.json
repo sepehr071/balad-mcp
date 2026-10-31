@@ -1,0 +1,254 @@
+{
+ "results": [
+  {
+   "type": "poi",
+   "view_type": "poi",
+   "maintext": "برج میلاد تهران",
+   "formatted_maintext": "{{برج}} {{میلاد}} تهران",
+   "subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی برج میلاد",
+   "formatted_subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی {{برج}} {{میلاد}}",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/default.png",
+   "id": "4Dvh6E79N49I2j",
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      51.375452,
+      35.744645
+     ]
+    ]
+   },
+   "center_point": [
+    51.375452,
+    35.744645
+   ],
+   "score": "1010.4171",
+   "extra_info": [],
+   "neighborhood_name": "کوی نصر",
+   "street_name": "",
+   "thumbnail": "https://cdn.balad.ir/crowd-images/all/original/c63bc8f7a6bf47e3b2514d632118e11f-image_picker4284e5af-877d-4580-926f-0911e11a7316.jpg?x-img=v1/resize,w_192/autorotate",
+   "phone": "0218585",
+   "second_stage_id": "UDI-POI_4Dvh6E79N49I2j",
+   "images": [],
+   "short_text": "",
+   "ad_properties": {},
+   "badges": [],
+   "distance": "7.2 کیلومتر",
+   "poi-tokens": [
+    "4Dvh6E79N49I2j"
+   ],
+   "doc_id": "1004836013"
+  },
+  {
+   "type": "poi",
+   "view_type": "poi",
+   "maintext": "ورودی برج میلاد",
+   "formatted_maintext": "ورودی {{برج}} {{میلاد}}",
+   "subtext1": "تهران، کوی نصر، میدان آرش کمانگیر",
+   "formatted_subtext1": "تهران، کوی نصر، میدان آرش کمانگیر",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/default.png",
+   "id": "5at3nHfgvsgVag",
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      51.37812984136352,
+      35.749404066105896
+     ]
+    ]
+   },
+   "center_point": [
+    51.37812984136352,
+    35.749404066105896
+   ],
+   "score": "1010.11505",
+   "extra_info": [],
+   "neighborhood_name": "کوی نصر",
+   "street_name": "",
+   "second_stage_id": "UDI-POI_5at3nHfgvsgVag",
+   "images": [],
+   "short_text": "",
+   "ad_properties": {},
+   "badges": [],
+   "distance": "7.5 کیلومتر",
+   "poi-tokens": [
+    "5at3nHfgvsgVag"
+   ],
+   "doc_id": "1034015118"
+  },
+  {
+   "type": "poi",
+   "view_type": "poi",
+   "maintext": "ایستگاه شارژ خودرو برقی برج میلاد",
+   "formatted_maintext": "ایستگاه شارژ خودرو برقی {{برج}} {{میلاد}}",
+   "subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی برج میلاد",
+   "formatted_subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی {{برج}} {{میلاد}}",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/default.png",
+   "id": "1ClOhESQmh7VZ5",
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      51.374479,
+      35.746756
+     ]
+    ]
+   },
+   "center_point": [
+    51.374479,
+    35.746756
+   ],
+   "score": "1010.1011",
+   "extra_info": [],
+   "neighborhood_name": "کوی نصر",
+   "street_name": "",
+   "thumbnail": "https://cdn.balad.ir/crowd-images/all/original/1ClOhESQmh7VZ5-4230f892bf1b45359c1827ff7b7edf9b.jpg?x-img=v1/resize,w_192/autorotate",
+   "second_stage_id": "UDI-POI_1ClOhESQmh7VZ5",
+   "images": [],
+   "short_text": "",
+   "ad_properties": {},
+   "badges": [],
+   "distance": "7.4 کیلومتر",
+   "poi-tokens": [
+    "1ClOhESQmh7VZ5"
+   ],
+   "doc_id": "1015481538"
+  },
+  {
+   "type": "poi",
+   "view_type": "poi",
+   "maintext": "سرزمین افسانه ها برج میلاد",
+   "formatted_maintext": "سرزمین افسانه ها {{برج}} {{میلاد}}",
+   "subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی برج میلاد",
+   "formatted_subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی {{برج}} {{میلاد}}",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/entertainment.png",
+   "id": "5wh3SLk2JuZIvw",
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      51.376102,
+      35.745815
+     ]
+    ]
+   },
+   "center_point": [
+    51.376102,
+    35.745815
+   ],
+   "score": "1010.10034",
+   "extra_info": [],
+   "neighborhood_name": "کوی نصر",
+   "street_name": "",
+   "thumbnail": "https://cdn.balad.ir/crowd-images/all/original/84ad8ffb6e57426eb880c5ebc95ce669-1.jpg?x-img=v1/resize,w_192/autorotate",
+   "phone": "02124557",
+   "second_stage_id": "UDI-POI_5wh3SLk2JuZIvw",
+   "images": [],
+   "short_text": "",
+   "ad_properties": {},
+   "badges": [],
+   "distance": "7.2 کیلومتر",
+   "poi-tokens": [
+    "5wh3SLk2JuZIvw"
+   ],
+   "doc_id": "1017859370"
+  },
+  {
+   "type": "poi",
+   "view_type": "poi",
+   "maintext": "پارکینگ طبقاتی برج میلاد",
+   "formatted_maintext": "پارکینگ طبقاتی {{برج}} {{میلاد}}",
+   "subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی برج میلاد",
+   "formatted_subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی {{برج}} {{میلاد}}",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/parking.png",
+   "id": "1dwUzYwfWJuXpg",
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      51.3764115,
+      35.746963
+     ]
+    ]
+   },
+   "center_point": [
+    51.3764115,
+    35.746963
+   ],
+   "score": "1010.10693",
+   "extra_info": [],
+   "neighborhood_name": "کوی نصر",
+   "street_name": "",
+   "phone": "02188824207",
+   "second_stage_id": "UDI-POI_1dwUzYwfWJuXpg",
+   "images": [],
+   "short_text": "",
+   "ad_properties": {},
+   "badges": [],
+   "distance": "7.4 کیلومتر",
+   "poi-tokens": [
+    "1dwUzYwfWJuXpg"
+   ],
+   "doc_id": "1001954840"
+  },
+  {
+   "type": "poi",
+   "view_type": "poi",
+   "maintext": "مرکز همایشی برج میلاد",
+   "formatted_maintext": "مرکز همایشی {{برج}} {{میلاد}}",
+   "subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی برج میلاد",
+   "formatted_subtext1": "تهران، کوی نصر، خ. مسیر اختصاصی {{برج}} {{میلاد}}",
+   "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/entertainment.png",
+   "id": "64ya6bBNWW1Eck",
+   "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+     [
+      [
+       [
+        51.3758817,
+        35.7475667
+       ],
+       [
+        51.3767674,
+        35.7472103
+       ],
+       [
+        51.3763736,
+        35.7465655
+       ],
+       [
+        51.3754898,
+        35.7469252
+       ],
+       [
+        51.3758817,
+        35.7475667
+       ]
+      ]
+     ]
+    ]
+   },
+   "center_point": [
+    51.37607654285714,
+    35.747030342857144
+   ],
+   "score": "1010.1166",
+   "extra_info": [],
+   "neighborhood_name": "کوی نصر",
+   "street_name": "",
+   "thumbnail": "https://cdn.balad.ir/crowd-images/all/original/5a7ff8dcf46346b680d1a518f2041508-1000077944.jpg?x-img=v1/resize,w_192/autorotate",
+   "second_stage_id": "UDI-POI_64ya6bBNWW1Eck",
+   "images": [],
+   "short_text": "",
+   "ad_properties": {},
+   "badges": [],
+   "distance": "7.4 کیلومتر",
+   "poi-tokens": [
+    "64ya6bBNWW1Eck"
+   ],
+   "doc_id": "367736104"
+  }
+ ],
+ "text": "برج میلاد"
+}

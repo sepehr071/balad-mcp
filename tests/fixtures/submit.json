@@ -1,0 +1,80 @@
+{
+ "poi-tokens": [
+  "5JXnf51kofn3H0",
+  "3Z1QWzglqW9NiA",
+  "4g1ArslTgjQ0r8"
+ ],
+ "maintext": "فست‌فود - پیتزا",
+ "formatted_maintext": "{{فست‌فود}} - {{پیتزا}}",
+ "subtext1": "نمایش نتایج فست‌فود روی نقشه",
+ "formatted_subtext1": "نمایش نتایج فست‌فود روی نقشه",
+ "bundle_id": 10806,
+ "bundle_slug": "fast-food-restaurant",
+ "geojson": {
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      52.53573,
+      29.631744
+     ]
+    },
+    "properties": {
+     "name": "پیتزا",
+     "is_selected": false,
+     "rate": 0.0,
+     "icon": "other-15"
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      52.518785,
+      29.623899
+     ]
+    },
+    "properties": {
+     "name": "پینو پینو",
+     "is_selected": false,
+     "rate": 4.000000000000001,
+     "icon": "other-15"
+    }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      52.5390104,
+      29.6326996
+     ]
+    },
+    "properties": {
+     "name": "فست فود سفیر دو",
+     "is_selected": false,
+     "rate": 3.1666666666666683,
+     "icon": "other-15-closed"
+    }
+   }
+  ]
+ },
+ "type": "bundle-poi",
+ "view_type": "bundle-poi",
+ "icon": "https://cdn.balad.ir/neda-static-files/balad-search/icons/search/bundle.png",
+ "list_text_main": "۹۳۴ نتیجه برای «فست‌فود»",
+ "list_text_alert": "",
+ "list_text_alert_info": "",
+ "list_text_alert_clicked_query": "",
+ "bundle_paging_meta": {
+  "score": 5.34461,
+  "distance": 5,
+  "tie_breaker": "44zF1GV4fFYeLl"
+ },
+ "related_bundles": null,
+ "parent_slug": null
+}
