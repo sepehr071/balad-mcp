@@ -40,7 +40,7 @@ async def test_search_returns_places_with_ids_and_coordinates(client, api):
     api["/v6/"] = fixture("search.json")
     r = (await client.call_tool("bl_search", {"query": "برج میلاد", "limit": 3})).structured_content
     first = r["results"][0]
-    assert r["count"] == 3 and first["type"] == "poi" and first["id"] == MILAD
+    assert len(r["results"]) == 3 and first["type"] == "poi" and first["id"] == MILAD
     assert (first["lat"], first["lng"]) == (35.744645, 51.375452) and "distance_km" not in first
     q = api.calls[0].url.params
     assert q["text"] == "برج میلاد" and q["camera"] == "51.411954,35.699521"  # lng,lat; Tehran by default

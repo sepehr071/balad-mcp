@@ -15,21 +15,21 @@ from .registry import tool
 
 TEHRAN = (35.699521, 51.411954)  # balad.ir's default map center when no point is given
 
-Lat = Annotated[float, Field(description="Latitude in degrees, e.g. 35.7448.", ge=24, le=40.5)]
-Lng = Annotated[float, Field(description="Longitude in degrees, e.g. 51.3753.", ge=43, le=64)]
+Lat = Annotated[float, Field(description="Latitude, e.g. 35.7448.", ge=24, le=40.5)]
+Lng = Annotated[float, Field(description="Longitude, e.g. 51.3753.", ge=43, le=64)]
 PlaceId = Annotated[
     str,
-    Field(description="Place id from bl_search or bl_nearby, e.g. 4Dvh6E79N49I2j.", pattern=r"^[A-Za-z0-9]{6,32}$"),
+    Field(description="Place id from bl_search or bl_nearby.", pattern=r"^[A-Za-z0-9]{6,32}$"),
 ]
 What = Annotated[
     str,
     Field(
-        description="A category slug from bl_categories (e.g. pharmacy, restaurant, gas-station, atm) or free text (e.g. پیتزا, کافه).",
+        description="Category slug from bl_categories (e.g. pharmacy, gas-station) or free text (e.g. پیتزا).",
         min_length=1,
         max_length=100,
     ),
 ]
-OpenNow = Annotated[bool, Field(description="Only places Balad marks as open right now.")]
+OpenNow = Annotated[bool, Field(description="Only places open now.")]
 
 # Filter ids of balad.ir's list view (the same for every category, read from bundle-search `filters`).
 SORT = {"relevance": None, "rating": "13", "popular": "14"}
@@ -160,27 +160,24 @@ async def bl_search(
     query: Annotated[
         str,
         Field(
-            description="What to find, in Persian or English: a place name, street, address, neighbourhood or city, e.g. برج میلاد or خیابان ولیعصر.",
+            description="Place name, street, address, neighbourhood or city, e.g. برج میلاد.",
             min_length=1,
             max_length=200,
         ),
     ],
     lat: Annotated[
-        float | None, Field(description="Latitude to search around, e.g. 29.6100. Default: Tehran.", ge=24, le=40.5)
+        float | None, Field(description="Latitude to search around. Default: Tehran.", ge=24, le=40.5)
     ] = None,
     lng: Annotated[
-        float | None, Field(description="Longitude to search around, e.g. 52.5383. Default: Tehran.", ge=43, le=64)
+        float | None, Field(description="Longitude to search around. Default: Tehran.", ge=43, le=64)
     ] = None,
     limit: Annotated[int, Field(description="Max results (1-20).", ge=1, le=20)] = 10,
 ) -> dict[str, Any]:
     """Search Balad (Iranian map) for places, streets, neighbourhoods and cities by name, with coordinates and address.
 
-    Use it to find a specific place or to turn an address or city name into coordinates (geocoding). Results near
-    the given point rank first, so pass lat/lng (e.g. a city's coordinates from a first bl_search) when searching
-    outside Tehran. `type` is poi (a business or landmark: pass its `id` to bl_place), road, city, region or
-    category; a category row gives a `category` slug for bl_nearby. For every pharmacy, restaurant, etc. around
-    a point use bl_nearby instead; for coordinates -> address use bl_reverse_geocode. Empty: try a shorter or
-    Persian query.
+    Also geocodes addresses and city names. Pass lat/lng when searching outside Tehran (nearer results rank
+    first). `type` is poi (pass its `id` to bl_place), road, city, region or category (its `category` slug goes
+    to bl_nearby). For all places of one kind use bl_nearby. Empty: try a shorter or Persian query.
     """
     clat, clng = (lat, lng) if lat is not None and lng is not None else TEHRAN
     body = await fetch(f"{SEARCH}/v6/", {"text": query, **_view(clat, clng, 25)}, search_headers())
@@ -204,7 +201,7 @@ async def bl_search(
         out.append(row)
         if len(out) >= limit:
             break
-    return {"query": query, "count": len(out), "results": out}
+    return {"results": out}
 
 
 @tool("Nearby places by category")
@@ -212,31 +209,27 @@ async def bl_nearby(
     what: What,
     lat: Lat,
     lng: Lng,
-    radius_km: Annotated[float, Field(description="Search box half-width in km, e.g. 1 (0.2-20).", ge=0.2, le=20)] = 1,
-    limit: Annotated[int, Field(description="Max places to return with details (1-40).", ge=1, le=40)] = 10,
+    radius_km: Annotated[float, Field(description="Box half-width in km (0.2-20).", ge=0.2, le=20)] = 1,
+    limit: Annotated[int, Field(description="Max places (1-40).", ge=1, le=40)] = 10,
     open_now: OpenNow = False,
-    min_rating: Annotated[
-        Literal["3", "4", "4.5"] | None, Field(description="Only places rated above this, e.g. 4.")
-    ] = None,
+    min_rating: Annotated[Literal["3", "4", "4.5"] | None, Field(description="Only places rated above this.")] = None,
     sort: Annotated[
         Literal["relevance", "rating", "popular"],
-        Field(description="relevance (Balad's default), rating (best rated first) or popular (most visited)."),
+        Field(description="rating = best first, popular = most visited."),
     ] = "relevance",
     with_phone: Annotated[bool, Field(description="Only places with a phone number.")] = False,
     with_photos: Annotated[bool, Field(description="Only places with photos.")] = False,
     price: Annotated[
         Literal["cheap", "moderate", "expensive"] | None,
-        Field(description="Price level; restaurants and cafes only."),
+        Field(description="Restaurants and cafes only."),
     ] = None,
 ) -> dict[str, Any]:
     """List places of one kind (pharmacy, restaurant, gas station...) around a point, with address, phone and rating.
 
-    Results are in Balad's own order (as on balad.ir, filters included), each with its straight-line distance
-    from the point. Text that names a category (پیتزا -> fast-food-restaurant) lists that whole category, as the
-    site does; `category` then says which. Get the point from bl_search (a city or landmark) or from the user.
-    For the closest by driving time use bl_nearest_by_drive; for places on the way between two points use
-    bl_along_route; for hours, photos and reviews of one place call bl_place with its `id`. Empty: widen
-    radius_km, drop filters or use another word; bl_categories lists valid slugs.
+    Balad's own order, each with straight-line `distance_km`. Free text naming a category (پیتزا) lists that
+    whole category (`category` says which). Get the point from bl_search. For driving time use
+    bl_nearest_by_drive; for places on a trip bl_along_route; for hours and reviews bl_place with `id`. Empty:
+    widen radius_km or drop filters.
     """
     filters = _filters(open_now, min_rating, sort, with_phone, with_photos, price)
     slug, tokens, _ = await _list(what, _view(lat, lng, radius_km), filters)
@@ -253,7 +246,7 @@ async def bl_nearby(
         "price": price,
     }
     applied = {k: v for k, v in applied.items() if v} or None
-    return {"what": what, "category": slug, "filters": applied, "found": len(tokens), "places": places}
+    return {"category": slug, "filters": applied, "found": len(tokens), "places": places}
 
 
 def _fields(fields: Any) -> dict[str, Any]:
@@ -297,15 +290,13 @@ async def _amenities(p: dict[str, Any], token: str) -> list[str]:
 @tool("Place details")
 async def bl_place(
     id: PlaceId,
-    reviews: Annotated[int, Field(description="How many recent reviews to include (0-10).", ge=0, le=10)] = 3,
-    photos: Annotated[int, Field(description="How many photo URLs to include (0-20).", ge=0, le=20)] = 3,
+    reviews: Annotated[int, Field(description="Recent reviews to include (0-10).", ge=0, le=10)] = 3,
+    photos: Annotated[int, Field(description="Photo URLs to include (0-20).", ge=0, le=20)] = 3,
 ) -> dict[str, Any]:
     """Get one place's full details from Balad: address, phones, hours, open now, rating, amenities, photos, reviews.
 
-    `id` comes from bl_search, bl_nearby, bl_nearest_by_drive or bl_along_route. `hours` maps each weekday
-    (شنبه..جمعه) to that day's hours as the site shows them; `menu` is the restaurant's menu link when it has one;
-    `photos` are full-size image URLs. For more reviews call bl_reviews; for directions call bl_route with its
-    lat/lng.
+    `hours` maps each weekday (شنبه..جمعه) to its hours; `menu` is the menu link. More reviews: bl_reviews;
+    directions: bl_route with its lat/lng.
     """
     try:
         p, state = await asyncio.gather(
@@ -348,14 +339,11 @@ async def bl_place(
 @tool("Place reviews")
 async def bl_reviews(
     id: PlaceId,
-    page: Annotated[
-        int, Field(description="Page number, 10 reviews per page, newest first (1-100).", ge=1, le=100)
-    ] = 1,
+    page: Annotated[int, Field(description="Page (10 reviews each, 1-100).", ge=1, le=100)] = 1,
 ) -> dict[str, Any]:
     """Get one page of user reviews of a place on Balad, newest first, with stars and the rating breakdown.
 
-    `id` comes from bl_search or bl_nearby. 10 reviews per page; when `more` is true, call again with page+1.
-    bl_place already includes the first few reviews.
+    When `more` is true, call again with page+1. bl_place already includes the first few reviews.
     """
     try:
         body = await fetch(f"{POI}/all-comments/{id}/10/{page}")
@@ -383,8 +371,7 @@ async def bl_reviews(
 async def bl_reverse_geocode(lat: Lat, lng: Lng) -> dict[str, Any]:
     """Turn coordinates into a Persian street address with city, county and neighbourhood (reverse geocoding).
 
-    Use it when the user gives a point or a map pin and wants to know where it is. For the opposite (address or
-    name -> coordinates) use bl_search. Covers Iran only; elsewhere it answers with an error.
+    For the opposite (name -> coordinates) use bl_search. Iran only; elsewhere it errors.
     """
     body = await fetch(REVERSE, {"location": f"{lng},{lat}"})
     addr = body.get("formatted_address") if isinstance(body, dict) else None
@@ -461,19 +448,15 @@ async def bl_route(
     to_lng: Lng,
     stops: Annotated[
         list[Stop],
-        Field(
-            description='Stops on the way, in order, each "lat,lng", e.g. ["35.7016,51.4206"] (max 3).', max_length=3
-        ),
+        Field(description='Stops in order, each "lat,lng" (max 3).', max_length=3),
     ] = [],  # noqa: B006  (pydantic copies defaults)
-    steps: Annotated[bool, Field(description="Include turn-by-turn steps of the suggested route.")] = False,
+    steps: Annotated[bool, Field(description="Include turn-by-turn steps.")] = False,
 ) -> dict[str, Any]:
     """Get driving routes in Iran with distance, travel time in current traffic, tolls, roads and traffic-zone warnings.
 
-    Returns up to 3 routes, suggested first, like balad.ir's directions page; `notes` carry the site's labels
-    (traffic delay, toll in Toman, lowest fuel use); `traffic_plan` appears when the route enters a restricted
-    zone (طرح ترافیک, زوج و فرد) with its hours. With `stops`, `legs` gives each part. Driving only: Balad's
-    routing answers car routes for every mode. Get coordinates from bl_search or bl_nearby. Error 'no route': a
-    point is outside Iran or off the road network.
+    Up to 3 routes, suggested first; `notes` are the site's labels (delay, toll in Toman); `traffic_plan` appears
+    when a route enters a restricted zone (طرح ترافیک, زوج و فرد); `legs` with `stops`. Driving only. Get
+    coordinates from bl_search. 'No route': a point is outside Iran or off the road network.
     """
     via = [tuple(float(x) for x in s.split(",")) for s in stops]
     if any(not (24 <= a <= 40.5 and 43 <= b <= 64) for a, b in via):
@@ -501,7 +484,6 @@ async def bl_route(
     return {
         "from": body.get("sourceTitle") or None,
         "to": body.get("destinationTitle") or None,
-        "mode": "driving",
         "routes": out_routes,
     }
 
@@ -511,16 +493,14 @@ async def bl_nearest_by_drive(
     what: What,
     lat: Lat,
     lng: Lng,
-    radius_km: Annotated[float, Field(description="Search box half-width in km, e.g. 3 (0.5-20).", ge=0.5, le=20)] = 3,
-    candidates: Annotated[int, Field(description="How many of Balad's top places to time (2-8).", ge=2, le=8)] = 5,
+    radius_km: Annotated[float, Field(description="Box half-width in km (0.5-20).", ge=0.5, le=20)] = 3,
+    candidates: Annotated[int, Field(description="How many top places to time (2-8).", ge=2, le=8)] = 5,
     open_now: OpenNow = False,
 ) -> dict[str, Any]:
     """Rank places of one kind around a point by driving time from it in current traffic, quickest first.
 
-    Use it for "which pharmacy / gas station / hospital can I reach fastest from here". It takes Balad's top
-    `candidates` places of that kind in the box (as bl_nearby lists them) and times a drive to each (one route
-    call per place). Places Balad cannot route to are left out. For more places without drive times use
-    bl_nearby; for details of the winner call bl_place.
+    Times a drive to Balad's top `candidates` places (as bl_nearby lists them), one route call each; unroutable
+    places are left out. For more places without drive times use bl_nearby; details: bl_place.
     """
     slug, tokens, _ = await _list(what, _view(lat, lng, radius_km), _filters(open_now))
     places = [p for p in await _previews(tokens[:candidates]) if "lat" in p]
@@ -538,7 +518,7 @@ async def bl_nearest_by_drive(
 
     timed = [p for p in await asyncio.gather(*(time(p) for p in places)) if p]
     timed.sort(key=lambda p: (p["drive_minutes"], p["drive_km"]))
-    return {"what": what, "category": slug, "found": len(tokens), "timed": len(timed), "places": timed}
+    return {"category": slug, "found": len(tokens), "timed": len(timed), "places": timed}
 
 
 def _polyline(s: str, precision: int = 6) -> list[tuple[float, float]]:
@@ -589,17 +569,15 @@ async def bl_along_route(
     to_lat: Lat,
     to_lng: Lng,
     max_off_route_km: Annotated[
-        float, Field(description="How far from the road a place may be, in km, e.g. 0.5 (0.2-3).", ge=0.2, le=3)
+        float, Field(description="Max distance from the road in km (0.2-3).", ge=0.2, le=3)
     ] = 0.5,
     limit: Annotated[int, Field(description="Max places to return (1-30).", ge=1, le=30)] = 10,
     open_now: OpenNow = False,
 ) -> dict[str, Any]:
     """Find places of one kind (gas station, restaurant, pharmacy...) along the suggested driving route between two points.
 
-    Use it for "a gas station on my way to Shiraz" or "a cafe on the way home". Places are ordered by where they
-    come on the route (`km_from_start`) with how far off the road they are. Balad is searched in up to 12 boxes
-    spaced along the route, so on long trips (hundreds of km) places between boxes are missed; split the trip
-    with nearer destinations for full coverage. Details of a place: bl_place.
+    Ordered by `km_from_start`, with `off_route_km`. Searches up to 12 boxes along the route, so on trips of
+    hundreds of km places between boxes are missed; split the trip for full coverage.
     """
     route = (await _drive([(from_lat, from_lng), (to_lat, to_lng)]))["routes"][0]
     line = _polyline(route.get("geometry") or "")
@@ -636,7 +614,6 @@ async def bl_along_route(
         p["off_route_km"] = round(off, 2) if off is not None else None
     places.sort(key=lambda p: p["km_from_start"] if p["km_from_start"] is not None else math.inf)
     return {
-        "what": what,
         "category": slug,
         "route": {
             "km": round((route.get("distance") or 0) / 1000, 1),
@@ -653,8 +630,7 @@ async def bl_along_route(
 async def bl_categories() -> dict[str, Any]:
     """List Balad's place categories with the slug bl_nearby takes, grouped (food, health, shopping, services...).
 
-    Call it when you need the exact slug for bl_nearby, bl_nearest_by_drive or bl_along_route (e.g. pharmacy,
-    hospital, gas-station, atm, parking).
+    Use it for the exact slug for bl_nearby, bl_nearest_by_drive or bl_along_route.
     """
     body = await fetch(f"{SEARCH}/v6/bundle-list/full/")
     groups = body.get("results") if isinstance(body, dict) else None
