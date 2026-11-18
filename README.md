@@ -186,27 +186,6 @@ Category slugs (`pharmacy`, `gas-station`) come from `bl_categories`; free text 
 
 All 9 tools are annotated `readOnlyHint: true`.
 
-## How it works
-
-```text
-  AI agent  (Claude, Cursor, Copilot, ...)
-      │
-      │  MCP over stdio
-      ▼
-  balad-mcp  (runs on your machine)
-      │
-      │  HTTPS
-      ├──────▶  search.raah.ir             search, nearby lists, categories
-      ├──────▶  poi.raah.ir                place details, reviews, open now
-      ├──────▶  reverse-geocoding.raah.ir  coordinates -> address
-      └──────▶  direction.raah.ir          driving routes with live traffic
-```
-
-`balad-mcp` runs locally and calls the same public endpoints the balad.ir web map uses, with no hosted server in
-between and no API key. Requests go out through a Chrome-impersonating client with the headers the web app sends.
-It makes at most 4 requests at a time with a little jitter, keeps answers for 60 seconds, retries a failed GET up to
-twice, and only talks to the four hosts above. It only reads.
-
 ## Good to know
 
 - **Iran only.** Balad maps Iran; points elsewhere give "no address" or "no route" errors.
